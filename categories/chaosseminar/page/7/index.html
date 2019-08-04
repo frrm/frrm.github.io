@@ -51,6 +51,63 @@
 		    <h1 id="page-title">Kategorie: Chaosseminar</h1>
 		</header><article itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div>
     <header class="post-list-title">
+      <a href="../../../../ccc/chaosseminar/2015_07_kurzvortraege_abgeschlossener_projekte/">
+        <h2 itemprop="headline">Kurzvorträge: DNS-Tunnel, Traffic Maps, CMU Sphinx</h2>
+      </a>
+      <p class="post-metadata row">
+        <span class="row-item"><span class="fa fa-clock-o"></span>
+          <time datetime="2015-07-13" itemprop="datePublished">2015-07-13</time><span> in </span></span><span class="row-item">
+          <span class="fa fa-folder"></span>
+          <a href="../../../../categories/chaosseminar" rel="category">Chaos Seminar</a>
+        </span></p>
+    </header>
+    <div class="post-list-summary" itemprop="description">
+	  
+          
+
+<div class="chaosseminar-info">
+  <dl>
+      <dt>Thema</dt><dd>Kurzvorträge: DNS-Tunnel, Traffic Maps, CMU Sphinx</dd>
+      <dt>Termin</dt><dd>2015-07-13 20:00</dd><dt>Ort</dt><dd>Uni Ulm, Hörsaal H20</dd><dt>Vortragende</dt><dd>Marcus</dd>
+      <dt>Archiv</dt><dd>
+      
+      
+      </dd>
+  </dl>
+</div>
+
+<p>3 Kurzvorträge abgeschlossener Projekte:</p>
+
+<ul>
+<li>DNS-Tunnel - wir klauen am Telekom Hotspot</li>
+<li>Google Traffic Map Archiv Project</li>
+<li>CMU-Sphinx &ldquo;hello world&rdquo; der Spracherkennung</li>
+</ul>
+
+<h3 id="traffic-maps">Traffic Maps</h3>
+
+<pre><code>cnt=1; for f in *png; do h=$(printf '%04d\n' $cnt); cnt=$(($cnt+1)); mv $f $h.png; done
+ffmpeg  -framerate 10 -i %04d.png donnerstag.streik.ulm.mp4
+ls ??????????.png &gt;zeitstempel.list #die langen lueckenhaften Zeitstempel
+bash erzeuge_untertitel.bash zeitstempel.list 0.25 &gt; donnerstag.streik.ulm.srt
+</code></pre>
+
+<ul>
+<li><a href="http://dontpanic.ulm.ccc.de/~marcus/google_traffic_maps_project/donnerstag.streik.ulm.mp4">http://dontpanic.ulm.ccc.de/~marcus/google_traffic_maps_project/donnerstag.streik.ulm.mp4</a></li>
+<li><a href="http://dontpanic.ulm.ccc.de/~marcus/google_traffic_maps_project/donnerstag.streik.ulm.srt">http://dontpanic.ulm.ccc.de/~marcus/google_traffic_maps_project/donnerstag.streik.ulm.srt</a></li>
+</ul>
+
+<h3 id="dns-tunnel">DNS Tunnel</h3>
+
+<ul>
+<li>iodine v6 (Debian Wheezy) und iodine v7 (Debian Jessie) sind nicht kompatibel</li>
+<li><a href="http://dontpanic.ulm.ccc.de/~marcus/dns_tunnel_project/netzwerkdiagramm.dnstunnel.png">Testbild</a></li>
+</ul>
+</div>
+  </div>
+</article>
+<article itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div>
+    <header class="post-list-title">
       <a href="../../../../ccc/chaosseminar/2015_06_tcl/">
         <h2 itemprop="headline">Tcl</h2>
       </a>
@@ -319,60 +376,6 @@ Kursdaten simulieren.</p>
 </div>
 
 <p>Jeglichem Input nicht zu trauen ist einer der Grundsätze in der Software Security. Selbst wenn man sich versucht an diesen Grundsatz zu halten, ist es nicht immer einfach alles richtig zu machen. Es gibt beispielsweise immer mehr Input der nicht so offensichtlich ist. Zum Beispiel RFID Tags (wie elektronische Reisepässe oder RFID-basierte Preisschilder), so kann es sein, dass ein Reisepass plötzlich sämtliche Systems zur Passüberprüfung am Flughafen lahmlegt. Es wurde sogar schon gezeigt, dass es möglich ist Viren, Würmer und dergleichen auf RFID Tags unterzubringen.</p>
-</div>
-  </div>
-</article>
-<article itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div>
-    <header class="post-list-title">
-      <a href="../../../../ccc/chaosseminar/2014_12_uebersetzen/">
-        <h2 itemprop="headline">Spaß mit Übersetzen und Unicode</h2>
-      </a>
-      <p class="post-metadata row">
-        <span class="row-item"><span class="fa fa-clock-o"></span>
-          <time datetime="2014-12-08" itemprop="datePublished">2014-12-08</time><span> in </span></span><span class="row-item">
-          <span class="fa fa-folder"></span>
-          <a href="../../../../categories/chaosseminar" rel="category">Chaos Seminar</a>
-        </span></p>
-    </header>
-    <div class="post-list-summary" itemprop="description">
-	  
-          
-
-<div class="chaosseminar-info">
-  <dl>
-      <dt>Thema</dt><dd>Spaß mit Übersetzen und Unicode</dd>
-      <dt>Termin</dt><dd>2014-12-08 20:00</dd><dt>Ort</dt><dd>Uni Ulm, Hörsaal H20</dd><dt>Vortragende</dt><dd>Marcus Poller</dd>
-      <dt>Archiv</dt><dd>
-      
-      
-      </dd>
-  </dl>
-</div>
-
-<p>Das Thema lang erklärt: Es sind zwei Teilvorträge.</p>
-
-<p>Der erste fasst die Geschichten zusammen, die Marcus und seine Sprachschüler an Fehlübersetzungen und lustigen Missverständnissen hatten und soll dabei leichtfüßig in mögliche Gedankengänge von Fremdsprachen einführen. Vortragssprache ist Deutsch. Die angerissen Sprachen umfassen Deutsch - Englisch - Portugiesisch - Russisch - Polnisch und abhängig davon wie gut die Zuarbeiter sind auch noch Finnisch und Türkisch in gaaanz grob.</p>
-
-<p>Der zweite Teil stürzt sich auf das Schriftsystem. Es geht um Unicode. Der Vortrag ist noch nicht ganz sauber umrissen, aber er wird Endianess, Codierungen, dass Unicode Consortium und Teile aus den Codepages enthalten.</p>
-
-<p>Zur Selbstorientierung hier ein paar Leitfragen:</p>
-
-<ul>
-<li>Wie funktioniert lowercase() für Alphabete unterschiedlicher Buchstabenzahl?</li>
-<li>Was ist alphabetische Sortierung, wenn meine Musiksammlung auch russische Interpreten enthält?</li>
-<li>Wie vergleiche ich zwei Strings?</li>
-<li>Die Compose-Taste.</li>
-</ul>
-
-<p>Viel Spaß und bis Montag!</p>
-
-<p>Marcus</p>
-
-<h3 id="nachtrag">Nachtrag</h3>
-
-<p>Die <strong>soziale Webseite</strong> heißt <a href="http://polyglotclub.com">polyglotclub.com</a>; Nutzer legen Profile an, beschreiben ihre Sprachkenntnisse und ihre Wunschlernsprache. Es gibt die Möglichkeit, Texte zur Korrektur durch die Gemeinschaft einzureichen. Funktional ist die Webseite ok. Technisch hat sie Implementierungsprobleme..</p>
-
-<p><strong>Bücher</strong>: Für den auditiven Lerntyp empfiehlt sich <em>Assimil</em>. Ein kleines Buch mit ausgesuchten Texten in steigender Schwierigkeit wird langsam von Muttersprachlern gelesen. Die Übersetzung steht auf der gegenüberliegenden Buchseite. In regelmäßigen Abständen gibt es Grammatiklektionen. Bewertung von polnischen Muttersprachlern: Obwohl die Anfangstexte grammatisch witzige Konstruktionen (&ldquo;which is kind of funny&rdquo;) enthalten, sind sie korrekt. Bei steigender Schwierigkeit (&ldquo;in the middle of the book&rdquo;) entfällt das Problem. Nach 80-20 Regel arbeitet der <em>Kauderwelsch</em>. Interessant sind die Doppelübersetzungen in (1) Wort-für-Wort und (2) grammatisch sinnvollem Deutsch. Die Kauderwelschqualität schwankt in Abhaengigkeit der Sprache (Multiautorenschaft, danke maha! Esperanto sei super, Portugiesisch in einer undefiniert alten Ausgabe nicht löblich)</p>
 </div>
   </div>
 </article>
