@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SSH-Tunnel - Freiraum</title><meta name="description" itemprop="description" content="ThemaSSH-Tunnel Termin2017-04-10 20:00OrtUni Ulm, Hörsaal H20VortragendeMarcus Archiv    Die Secure SHell kennen Administratoren als Fernwartungswerkzeug für Linux, Solaris und BSD. Die meisten Leute loggen sich interaktiv auf einem Computer ein, aber das Werkzeug ist sehr viel mächtiger. Dieser Vortrag soll die Grundlagen anreißen, um darauf aufbauend vielfältige Netzwerkschweinereien^WNetzwerkverbindungen mit SSH zu erklären. Das ganze wird noch getoppt durch ineinander geschachtelte Verbindungen. Konkret werden diese drei SSH-Parameter erklärt:" id="desc"><meta name="generator" content="Hugo 0.51" /><link rel="canonical" href="../../../ccc/chaosseminar/2017_04_ssh-tunnel/">
+    <link rel="shortcut icon" href="../../../favicon.png">
+    <link rel="prefetch stylesheet" type="text/css" href="../../../css/font-awesome.min.css">
+    
+    <link rel="prefetch stylesheet" type="text/css" href="../../../styles.css">
+    </head>
+  <body itemscope itemtype="https://schema.org/WebPage">
+    <div id="site-container">
+      <div id="site-header">
+        <header class="small-text-center medium-text-left">
+          <a href="../../../">
+            <span id="site-title" itemprop="name">Freiraum - Hackerspace Ulm e.V.</span><br>
+            <span id="site-title2" itemprop="name">Chaos Computer Club Ulm</span>
+            
+          </a>
+        </header>
+        <label for="menu-toggle-box"><div id="menu-toggle" class="main-nav no-select"><span><span class="fa fa-bars"></span> MENU</span></div></label>
+        <input type="checkbox" id="menu-toggle-box" class="hide"/>
+        <nav id="main-nav">
+          <ul class="menu"><li class="no-select" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <input type="checkbox" id="nav-freiraum" class="hide"/><a class="main-nav button" href="../../../about/" >
+          FREIRAUM
+        </a></li><li class="no-select" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <input type="checkbox" id="nav-ccc-ulm" class="hide"/><a class="main-nav button" href="../../../ccc/" >
+          CCC ULM
+        </a></li><li class="no-select" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <input type="checkbox" id="nav-galerie" class="hide"/><a class="main-nav button" href="../../../gallery/" >
+          GALERIE
+        </a></li><li class="no-select" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <input type="checkbox" id="nav-veranstaltungen" class="hide"/><a class="main-nav button" href="../../../events/" >
+          VERANSTALTUNGEN
+        </a></li><li class="no-select" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <input type="checkbox" id="nav-kontakt" class="hide"/><a class="main-nav button" href="../../../contact/" >
+          KONTAKT
+        </a></li><li class="no-select" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <input type="checkbox" id="nav-impressum" class="hide"/><a class="main-nav button" href="../../../imprint/" >
+          IMPRESSUM
+        </a></li></ul>
+        </nav>
+      </div>
+      <div id="main-container" class="row" role="main" itemprop="mainContentOfPage">
+        
+        
+<main class="row-item small-full medium-two-thirds" >
+  <article id="post-article" itemscope itemtype="http://schema.org/Article" itemref="desc">
+    <header id="page-header">
+      <h1 itemprop="headline">SSH-Tunnel</h1><p class="post-metadata row"><span class="row-item">
+          <span class="fa fa-folder"></span>
+          <a href="../../../categories/chaosseminar" rel="category">Chaos Seminar</a>
+        </span>
+      </p>
+      
+    </header>
+    <div class="post-content">
+      <div itemprop="articleBody" style="display: inline">
+
+<div class="chaosseminar-info">
+  <dl>
+      <dt>Thema</dt><dd>SSH-Tunnel</dd>
+      <dt>Termin</dt><dd>2017-04-10 20:00</dd><dt>Ort</dt><dd>Uni Ulm, Hörsaal H20</dd><dt>Vortragende</dt><dd>Marcus</dd>
+      <dt>Archiv</dt><dd>
+      
+      
+      </dd>
+  </dl>
+</div>
+
+<p>Die Secure SHell kennen Administratoren als Fernwartungswerkzeug für Linux, Solaris und BSD. Die meisten Leute loggen sich interaktiv auf einem Computer ein, aber das Werkzeug ist sehr viel mächtiger. Dieser Vortrag soll die Grundlagen anreißen, um darauf aufbauend vielfältige Netzwerkschweinereien^WNetzwerkverbindungen mit SSH zu erklären. Das ganze wird noch getoppt durch ineinander geschachtelte Verbindungen.</p>
+
+<p>Konkret werden diese drei SSH-Parameter erklärt:</p>
+
+<ul>
+<li>ssh -L</li>
+<li>ssh -R</li>
+<li>ssh -D</li>
+</ul>
+
+<p>Auf dem Weg dahin nehmen wir noch</p>
+
+<ul>
+<li>ssh-keys, ssh-keygen</li>
+<li>ssh -A</li>
+<li>ssh-agent</li>
+<li>ssh-copy-id</li>
+<li>ssh -o$COMMAND (proxy-command, StrictHostKeyChecking)</li>
+<li>ssh-config</li>
+<li>Browser SOCKS-Proxy</li>
+</ul>
+
+<p>mit.</p>
+
+<h3 id="grundlagen">Grundlagen</h3>
+
+<ul>
+<li>TCP connect, accept</li>
+<li>TCP ports</li>
+<li>Firewalls</li>
+</ul>
+
+<h3 id="einzelportweiterleitung">Einzelportweiterleitung</h3>
+
+<ul>
+<li>ssh -L</li>
+</ul>
+
+<h3 id="ssh-agent">SSH-Agent</h3>
+
+<ul>
+<li>ssh-keys</li>
+<li>ssh-copy-id</li>
+<li>ssh-agent; ssh-add</li>
+<li>ssh -A</li>
+</ul>
+
+<h3 id="ssh-config">SSH-config</h3>
+
+<ul>
+<li>host * !hosta</li>
+<li>Sitzungsmultiplexing: ControlMaster auto, ControlPath /tmp/ssh-%r@%h:%p</li>
+<li>ProxyCommand nc -X 5 - x localhost:4444 %h %p</li>
+<li>DynamicForward</li>
+<li>LocalForward</li>
+<li>ForwardAgent</li>
+<li>RequestTTY</li>
+</ul>
+
+<h3 id="socks-proxy">SOCKS Proxy</h3>
+
+<h3 id="proxy-weiterleitung">Proxy Weiterleitung</h3>
+
+<ul>
+<li>Browser SOCKS5 Demo</li>
+<li>ssh -D</li>
+<li>ProxyCommand</li>
+</ul>
+
+<h3 id="ssh-in-ssh">SSH in SSH</h3>
+
+<h3 id="escape-sequenz">Escape Sequenz</h3>
+
+<ul>
+<li>~?ENTER</li>
+</ul>
+
+<h3 id="beispiele">Beispiele</h3>
+
+<ul>
+<li>ssh remote commands</li>
+<li>ssh stdin-stdout-Umleitung</li>
+<li>Einzelportweiterleitung</li>
+<li>VPN-Proxy</li>
+<li>DNS-Tunnel Proxy</li>
+<li>ssh-login in Rechner hinter NAT (ssh -R)</li>
+<li>von 22 nach 80</li>
+<li>von $LOCAL nach remote 80</li>
+<li>von $LOCAL nach remote 80 via Sprung</li>
+<li>Recher aus Testnetz via Laptop und Proxy nach Internet</li>
+<li>zwischendrin Benutzer wechseln</li>
+</ul>
+</div>
+    </div></article><div class="post-comments"></div></main>
+        <aside class="row-item small-full medium-third right" itemscope itemtype="http://schema.org/WPSideBar">
+  
+  <div class="widget">
+	<header>
+		<h4><a href="../../../events/#termine"><span class="fa fa-calendar"></span> nächste Treffen</a></h4>
+	</header>
+	<ul class="events-side"><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">CCC Ulm:</b>
+	  <span itemprop="about">CCC Montagstreffen</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="clock icon" src="../../../images/marker-time.svg">
+	  <time datetime="2019-08-05T20:00:00" content="2019-08-05T20:00:00" itemprop="startDate">2019-08-05 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="location icon" src="../../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Uni Ulm, Cafe Einstein</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">Funkamateure:</b>
+	  <span itemprop="about">DARC Treffen</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="clock icon" src="../../../images/marker-time.svg">
+	  <time datetime="2019-08-05T21:00:00" content="2019-08-05T21:00:00" itemprop="startDate">2019-08-05 21:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="location icon" src="../../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Freiraum</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">Offenes Treffen:</b>
+	  <span itemprop="about">Hauptsache Cyber!</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="clock icon" src="../../../images/marker-time.svg">
+	  <time datetime="2019-08-08T20:00:00" content="2019-08-08T20:00:00" itemprop="startDate">2019-08-08 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="location icon" src="../../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Freiraum</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">CCC Ulm:</b>
+	  <span itemprop="about">Grillen</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="clock icon" src="../../../images/marker-time.svg">
+	  <time datetime="2019-08-12T20:00:00" content="2019-08-12T20:00:00" itemprop="startDate">2019-08-12 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="location icon" src="../../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">TODO</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">Funkamateure:</b>
+	  <span itemprop="about">DARC Treffen</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="clock icon" src="../../../images/marker-time.svg">
+	  <time datetime="2019-08-12T21:00:00" content="2019-08-12T21:00:00" itemprop="startDate">2019-08-12 21:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="location icon" src="../../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Freiraum</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">Offenes Treffen:</b>
+	  <span itemprop="about">Hauptsache Cyber!</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="clock icon" src="../../../images/marker-time.svg">
+	  <time datetime="2019-08-15T20:00:00" content="2019-08-15T20:00:00" itemprop="startDate">2019-08-15 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="location icon" src="../../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Freiraum</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">CCC Ulm:</b>
+	  <span itemprop="about">CCC Montagstreffen</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="clock icon" src="../../../images/marker-time.svg">
+	  <time datetime="2019-08-19T20:00:00" content="2019-08-19T20:00:00" itemprop="startDate">2019-08-19 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="location icon" src="../../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Uni Ulm, Cafe Einstein</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">Funkamateure:</b>
+	  <span itemprop="about">DARC Treffen</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="clock icon" src="../../../images/marker-time.svg">
+	  <time datetime="2019-08-19T21:00:00" content="2019-08-19T21:00:00" itemprop="startDate">2019-08-19 21:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="location icon" src="../../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Freiraum</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">Offenes Treffen:</b>
+	  <span itemprop="about">Hauptsache Cyber!</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="clock icon" src="../../../images/marker-time.svg">
+	  <time datetime="2019-08-22T20:00:00" content="2019-08-22T20:00:00" itemprop="startDate">2019-08-22 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="location icon" src="../../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Freiraum</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">CCC Ulm:</b>
+	  <span itemprop="about">CCC Montagstreffen</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="clock icon" src="../../../images/marker-time.svg">
+	  <time datetime="2019-08-26T20:00:00" content="2019-08-26T20:00:00" itemprop="startDate">2019-08-26 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="location icon" src="../../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Uni Ulm, Cafe Einstein</span>
+	  </span>
+    </li></ul>
+</div>
+  <div class="widget">
+	<header>
+		<h4><span class="fa fa-pencil"></span> <a href="../../../post/">neueste Beiträge</a></h4>
+	</header>
+	<ul><li><a href="../../../post/post_2019-07-20/">50 Jahre Mondladung</a></li><li><a href="../../../post/2019-07-05/">Chaos Party Ulm: Vortragsvideos</a></li><li><a href="../../../post/post_2019-06-17/">Chaos Party Ulm</a></li><li><a href="../../../post/post_2019-03-23/">Matrix</a></li><li><a href="../../../post/post_2019-02-04/">Don&#39;t panic</a></li><li><a href="../../../post/post_2018-12-06/">Rückblick 2018</a></li><li><a href="../../../post/post_2018-12-05/">ChaosSeminar 18/12</a></li><li><a href="../../../post/post_2018-11-15/">Recent changes</a></li><li><a href="../../../post/post_2018-10-18/">Workshop Schlüsseldienst</a></li><li><a href="../../../post/post_2018-09-13/">Vorträge etc.</a></li></ul>
+</div>
+  
+	<div class="widget">
+	<header>
+		<h4><span class="fa fa-folder"></span> <a href="../../../categories/">Kategorien</a></h4>
+	</header>
+	<ul><li><a href="../../../categories/chaosseminar">Chaosseminar</a></li>
+		<li><a href="../../../categories/ank%C3%BCndigungen">Ankündigungen</a></li>
+		<li><a href="../../../categories/log">Log</a></li>
+		<li><a href="../../../categories/projekte">Projekte</a></li>
+		<li><a href="../../../categories/verein">Verein</a></li>
+		
+	</ul>
+</div>
+	
+</aside>
+
+      </div>
+      <footer class="row">
+        <div class="small-full medium-half row-item small-text-center medium-text-left"><small>&copy; 2019 <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Freiraum</span></span>.</small></div>
+        <div class="small-full medium-half row-item small-text-center medium-text-right" id="social-icons">
+          
+          
+          <a href="https://github.com/frrm">
+            <span class="fa fa-github"></span>
+          </a>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://crocell.crystaldown.de">
+            <span class="fa fa-wikipedia-w"></span>
+          </a>
+        </div>
+      </footer>
+    </div></body>
+</html>

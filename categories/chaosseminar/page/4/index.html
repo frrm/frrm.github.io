@@ -1,0 +1,685 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chaosseminar - Freiraum</title><meta name="description" itemprop="description" content="Freiraum - Hackerspace Ulm e.V." id="desc"><meta name="generator" content="Hugo 0.51" /><link rel="alternate" type="application/rss+xml" title="Freiraum Feed" href="../../../../categories/chaosseminar/index.xml"><link rel="canonical" href="../../../../categories/chaosseminar/">
+    <link rel="shortcut icon" href="../../../../favicon.png">
+    <link rel="prefetch stylesheet" type="text/css" href="../../../../css/font-awesome.min.css">
+    
+    <link rel="prefetch stylesheet" type="text/css" href="../../../../styles.css">
+    </head>
+  <body itemscope itemtype="https://schema.org/WebPage">
+    <div id="site-container">
+      <div id="site-header">
+        <header class="small-text-center medium-text-left">
+          <a href="../../../../">
+            <span id="site-title" itemprop="name">Freiraum - Hackerspace Ulm e.V.</span><br>
+            <span id="site-title2" itemprop="name">Chaos Computer Club Ulm</span>
+            
+          </a>
+        </header>
+        <label for="menu-toggle-box"><div id="menu-toggle" class="main-nav no-select"><span><span class="fa fa-bars"></span> MENU</span></div></label>
+        <input type="checkbox" id="menu-toggle-box" class="hide"/>
+        <nav id="main-nav">
+          <ul class="menu"><li class="no-select" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <input type="checkbox" id="nav-freiraum" class="hide"/><a class="main-nav button" href="../../../../about/" >
+          FREIRAUM
+        </a></li><li class="no-select" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <input type="checkbox" id="nav-ccc-ulm" class="hide"/><a class="main-nav button" href="../../../../ccc/" >
+          CCC ULM
+        </a></li><li class="no-select" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <input type="checkbox" id="nav-galerie" class="hide"/><a class="main-nav button" href="../../../../gallery/" >
+          GALERIE
+        </a></li><li class="no-select" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <input type="checkbox" id="nav-veranstaltungen" class="hide"/><a class="main-nav button" href="../../../../events/" >
+          VERANSTALTUNGEN
+        </a></li><li class="no-select" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <input type="checkbox" id="nav-kontakt" class="hide"/><a class="main-nav button" href="../../../../contact/" >
+          KONTAKT
+        </a></li><li class="no-select" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <input type="checkbox" id="nav-impressum" class="hide"/><a class="main-nav button" href="../../../../imprint/" >
+          IMPRESSUM
+        </a></li></ul>
+        </nav>
+      </div>
+      <div id="main-container" class="row" role="main" itemprop="mainContentOfPage">
+        
+        
+  <main id="post-list" class="row-item small-full medium-two-thirds"><header id="page-header">
+		    
+		    <h1 id="page-title">Kategorie: Chaosseminar</h1>
+		</header><article itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div>
+    <header class="post-list-title">
+      <a href="../../../../ccc/chaosseminar/2017_04_ssh-tunnel/">
+        <h2 itemprop="headline">SSH-Tunnel</h2>
+      </a>
+      <p class="post-metadata row">
+        <span class="row-item">
+          <span class="fa fa-clock-o"></span>
+          <time datetime="2017-04-10" itemprop="datePublished">2017-04-10</time><span> in </span></span><span class="row-item">
+          <span class="fa fa-folder"></span>
+          <a href="../../../../categories/chaosseminar" rel="category">Chaos Seminar</a>
+        </span></p>
+    </header>
+    <div class="post-list-summary" itemprop="description">
+	  
+          
+
+<div class="chaosseminar-info">
+  <dl>
+      <dt>Thema</dt><dd>SSH-Tunnel</dd>
+      <dt>Termin</dt><dd>2017-04-10 20:00</dd><dt>Ort</dt><dd>Uni Ulm, Hörsaal H20</dd><dt>Vortragende</dt><dd>Marcus</dd>
+      <dt>Archiv</dt><dd>
+      
+      
+      </dd>
+  </dl>
+</div>
+
+<p>Die Secure SHell kennen Administratoren als Fernwartungswerkzeug für Linux, Solaris und BSD. Die meisten Leute loggen sich interaktiv auf einem Computer ein, aber das Werkzeug ist sehr viel mächtiger. Dieser Vortrag soll die Grundlagen anreißen, um darauf aufbauend vielfältige Netzwerkschweinereien^WNetzwerkverbindungen mit SSH zu erklären. Das ganze wird noch getoppt durch ineinander geschachtelte Verbindungen.</p>
+
+<p>Konkret werden diese drei SSH-Parameter erklärt:</p>
+
+<ul>
+<li>ssh -L</li>
+<li>ssh -R</li>
+<li>ssh -D</li>
+</ul>
+
+<p>Auf dem Weg dahin nehmen wir noch</p>
+
+<ul>
+<li>ssh-keys, ssh-keygen</li>
+<li>ssh -A</li>
+<li>ssh-agent</li>
+<li>ssh-copy-id</li>
+<li>ssh -o$COMMAND (proxy-command, StrictHostKeyChecking)</li>
+<li>ssh-config</li>
+<li>Browser SOCKS-Proxy</li>
+</ul>
+
+<p>mit.</p>
+
+<h3 id="grundlagen">Grundlagen</h3>
+
+<ul>
+<li>TCP connect, accept</li>
+<li>TCP ports</li>
+<li>Firewalls</li>
+</ul>
+
+<h3 id="einzelportweiterleitung">Einzelportweiterleitung</h3>
+
+<ul>
+<li>ssh -L</li>
+</ul>
+
+<h3 id="ssh-agent">SSH-Agent</h3>
+
+<ul>
+<li>ssh-keys</li>
+<li>ssh-copy-id</li>
+<li>ssh-agent; ssh-add</li>
+<li>ssh -A</li>
+</ul>
+
+<h3 id="ssh-config">SSH-config</h3>
+
+<ul>
+<li>host * !hosta</li>
+<li>Sitzungsmultiplexing: ControlMaster auto, ControlPath /tmp/ssh-%r@%h:%p</li>
+<li>ProxyCommand nc -X 5 - x localhost:4444 %h %p</li>
+<li>DynamicForward</li>
+<li>LocalForward</li>
+<li>ForwardAgent</li>
+<li>RequestTTY</li>
+</ul>
+
+<h3 id="socks-proxy">SOCKS Proxy</h3>
+
+<h3 id="proxy-weiterleitung">Proxy Weiterleitung</h3>
+
+<ul>
+<li>Browser SOCKS5 Demo</li>
+<li>ssh -D</li>
+<li>ProxyCommand</li>
+</ul>
+
+<h3 id="ssh-in-ssh">SSH in SSH</h3>
+
+<h3 id="escape-sequenz">Escape Sequenz</h3>
+
+<ul>
+<li>~?ENTER</li>
+</ul>
+
+<h3 id="beispiele">Beispiele</h3>
+
+<ul>
+<li>ssh remote commands</li>
+<li>ssh stdin-stdout-Umleitung</li>
+<li>Einzelportweiterleitung</li>
+<li>VPN-Proxy</li>
+<li>DNS-Tunnel Proxy</li>
+<li>ssh-login in Rechner hinter NAT (ssh -R)</li>
+<li>von 22 nach 80</li>
+<li>von $LOCAL nach remote 80</li>
+<li>von $LOCAL nach remote 80 via Sprung</li>
+<li>Recher aus Testnetz via Laptop und Proxy nach Internet</li>
+<li>zwischendrin Benutzer wechseln</li>
+</ul>
+</div>
+  </div>
+</article>
+<article itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div>
+    <header class="post-list-title">
+      <a href="../../../../ccc/chaosseminar/2017_03_freifunk/">
+        <h2 itemprop="headline">Freifunk</h2>
+      </a>
+      <p class="post-metadata row">
+        <span class="row-item">
+          <span class="fa fa-clock-o"></span>
+          <time datetime="2017-03-13" itemprop="datePublished">2017-03-13</time><span> in </span></span><span class="row-item">
+          <span class="fa fa-folder"></span>
+          <a href="../../../../categories/chaosseminar" rel="category">Chaos Seminar</a>
+        </span></p>
+    </header>
+    <div class="post-list-summary" itemprop="description">
+	  
+          <div class="chaosseminar-info">
+  <dl>
+      <dt>Thema</dt><dd>Freifunk</dd>
+      <dt>Termin</dt><dd>2017-03-13 20:00</dd><dt>Ort</dt><dd>Uni Ulm, Hörsaal H20</dd><dt>Vortragende</dt><dd>Moritz Warning</dd>
+      <dt>Archiv</dt><dd>
+      
+      
+      </dd>
+  </dl>
+</div>
+
+<p>Freifunk ist eine Initiative aus unabhängigen Gruppen um eine offenes, nicht-kommerzielles und dezentrales Netzwerk aus WLAN-Geräten zu schaffen.</p>
+
+<p>Der Vortrag geht auf die Ideen und die Technik hinter Freifunk ein. Dabei sollen Themen wie der Aufbau der Infrastruktur (Mesh-Routing mit 802.11s, VPN, Gateways, IP-Adressvergabe), Software (OpenWrt, batman-adv, fastd) und Hardware (Router, Richtfunk) besprochen werden. Die Fokus wird dabei eher bei der Firmware liegen.</p>
+</div>
+  </div>
+</article>
+<article itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div>
+    <header class="post-list-title">
+      <a href="../../../../ccc/chaosseminar/2017_02_crypto/">
+        <h2 itemprop="headline">Digitale Selbstverteidigung</h2>
+      </a>
+      <p class="post-metadata row">
+        <span class="row-item">
+          <span class="fa fa-clock-o"></span>
+          <time datetime="2017-02-13" itemprop="datePublished">2017-02-13</time><span> in </span></span><span class="row-item">
+          <span class="fa fa-folder"></span>
+          <a href="../../../../categories/chaosseminar" rel="category">Chaos Seminar</a>
+        </span></p>
+    </header>
+    <div class="post-list-summary" itemprop="description">
+	  
+          <div class="chaosseminar-info">
+  <dl>
+      <dt>Thema</dt><dd>Digitale Selbstverteidigung</dd>
+      <dt>Termin</dt><dd>2017-02-13 20:00</dd><dt>Ort</dt><dd>Uni Ulm, Hörsaal H20</dd><dt>Vortragende</dt><dd>Marcus, Simon, Juergen, Veronika</dd>
+      <dt>Archiv</dt><dd>
+      
+      
+      </dd>
+  </dl>
+</div>
+
+<p>Wir zeigen einige grundlegende Angriffe und kryptographische Möglichkeiten mit denen man sich dabei verteidigen kann.
+Unter anderem zeigen wir die Installation von Ubuntu mit Festplattenverschlüsselung, Mailverschlüsselung mit Thunderbird und enigmail und Anonymisierung mit Tor-Browser.</p>
+
+<p>Mehr zum Thema bei <a href="https://digitalcourage.de/digitale-selbstverteidigung">Digitalcourage</a>, und zum Thema Browsertracking im Chaosseminar von <a href="../../../../ccc/chaosseminar/2017_02_crypto/../2015_11_Lightning/">November 2015</a>.</p>
+
+<p>Ablaufplan:</p>
+
+<ol>
+<li>Jürgen: Angriffsarten (böswilliges Zimmermädchen, Gummiknüppel, Mann in der Mitte)</li>
+<li>Marcus: Ubuntu Installation, Kommentar Passwortstärke</li>
+<li>Simon: e-Mail-Verschlüsselung (Thunderbird+Enigmail)</li>
+<li>Veronika: Tor-Browser</li>
+</ol>
+</div>
+  </div>
+</article>
+<article itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div>
+    <header class="post-list-title">
+      <a href="../../../../ccc/chaosseminar/2017_01_ipv6_alias-resolution/">
+        <h2 itemprop="headline">IPv6 Alias-Resolution auf großen Hostmengen</h2>
+      </a>
+      <p class="post-metadata row">
+        <span class="row-item">
+          <span class="fa fa-clock-o"></span>
+          <time datetime="2017-01-09" itemprop="datePublished">2017-01-09</time><span> in </span></span><span class="row-item">
+          <span class="fa fa-folder"></span>
+          <a href="../../../../categories/chaosseminar" rel="category">Chaos Seminar</a>
+        </span></p>
+    </header>
+    <div class="post-list-summary" itemprop="description">
+	  
+          <div class="chaosseminar-info">
+  <dl>
+      <dt>Thema</dt><dd>IPv6 Alias-Resolution auf großen Hostmengen</dd>
+      <dt>Termin</dt><dd>2017-01-09 20:00</dd><dt>Ort</dt><dd>Uni Ulm, Hörsaal H20</dd><dt>Vortragende</dt><dd>Marcus</dd>
+      <dt>Archiv</dt><dd>
+      
+      
+      </dd>
+  </dl>
+</div>
+
+<p>Wenn mit Traceroute die Netztopologie erkundet wird, laufen wahrscheinlich der Hinweg und Rückweg über die gleichen Router. Das muss sich jedoch nicht an den IPv6-Adressen widerspiegeln. Um die Topologieinformationen zu gewinnen, müssen die Adressen zu Routern zusammengeführt werden. Dieser Vorgang heißt Alias-Resolution.
+Marcus Masterarbeit beschäftigt sich mit Alias-Resolution im großen (10^6) Maßstab.</p>
+
+<p>Nach einer Einführung in IPv6 und Path-Maximum-Transfer-Unit-Discovery, werden die Vorarbeiten und die verwandten Arbeiten vorgestellt. An deren Problemen wird ein theoretischer Ansatz erarbeitet. Anschließend wird die Implementierung erklärt.</p>
+</div>
+  </div>
+</article>
+<article itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div>
+    <header class="post-list-title">
+      <a href="../../../../ccc/chaosseminar/2016_12_kurzvortraege/">
+        <h2 itemprop="headline">Kurzvorträge: Plattentektonik, C99</h2>
+      </a>
+      <p class="post-metadata row">
+        <span class="row-item">
+          <span class="fa fa-clock-o"></span>
+          <time datetime="2016-12-12" itemprop="datePublished">2016-12-12</time><span> in </span></span><span class="row-item">
+          <span class="fa fa-folder"></span>
+          <a href="../../../../categories/chaosseminar" rel="category">Chaos Seminar</a>
+        </span></p>
+    </header>
+    <div class="post-list-summary" itemprop="description">
+	  
+          
+
+<div class="chaosseminar-info">
+  <dl>
+      <dt>Thema</dt><dd>Kurzvorträge: Plattentektonik, C99</dd>
+      <dt>Termin</dt><dd>2016-12-12 20:00</dd><dt>Ort</dt><dd>Uni Ulm, Hörsaal H20</dd><dt>Vortragende</dt><dd>Marco, Marcus</dd>
+      <dt>Archiv</dt><dd>
+      
+      
+      </dd>
+  </dl>
+</div>
+
+<h3 id="vortrag-klimaerwärmung-und-plattentektonik">Vortrag: Klimaerwärmung und Plattentektonik</h3>
+
+<ol>
+<li>Wärmeleitungsgleichung</li>
+<li>Lösung für Sinusförmige Anregung an der Erdoberfläche (Eis- und Warmzeiten)</li>
+<li>Eindringtiefe der Temperaturänderung durch Eiszeiten</li>
+<li>Dadurch verursachte Wärmeausdehnung der Erdplatten</li>
+<li>Dadurch verursachte Kontinentaldriftgeschwindigkeit (3-10 cm pro Jahr)</li>
+</ol>
+
+<h3 id="vortrag-das-byte-in-c99">Vortrag: Das Byte in C99</h3>
+
+<p>Für einen Netzwerkstack soll Code entstehen, der auch noch in 20 Jahren kompiliert. Wie bildet man das ab?</p>
+</div>
+  </div>
+</article>
+<article itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div>
+    <header class="post-list-title">
+      <a href="../../../../ccc/chaosseminar/2016_11_mini_programmiersprachen/">
+        <h2 itemprop="headline">Gewachsene kleine Programmiersprachen</h2>
+      </a>
+      <p class="post-metadata row">
+        <span class="row-item">
+          <span class="fa fa-clock-o"></span>
+          <time datetime="2016-11-14" itemprop="datePublished">2016-11-14</time><span> in </span></span><span class="row-item">
+          <span class="fa fa-folder"></span>
+          <a href="../../../../categories/chaosseminar" rel="category">Chaos Seminar</a>
+        </span></p>
+    </header>
+    <div class="post-list-summary" itemprop="description">
+	  
+          <div class="chaosseminar-info">
+  <dl>
+      <dt>Thema</dt><dd>Gewachsene kleine Programmiersprachen</dd>
+      <dt>Termin</dt><dd>2016-11-14 20:15</dd><dt>Ort</dt><dd>Uni Ulm, Hörsaal H20</dd><dt>Vortragende</dt><dd>Marco</dd>
+      <dt>Archiv</dt><dd>
+      
+      
+      </dd>
+  </dl>
+</div>
+
+<p>Vielleicht geht&rsquo;s euch auch so, dass ihr so erst mal ein kleines Programm schreibt, das irgendwas nützliches tut. Dann wird es erweitert, weil es läuft ja eh so toll, dann soll es interaktiv werden, und man muss irgendwie eine input-switch-case-schleife basteln, und schon ist mehr oder weniger zufällig eine primitive Programmiersprache entstanden.</p>
+
+<p>Wenn wir dann so weit sind, wäre es ja toll, einen Befehl nicht mehrfach zu tippen, sondern ein tu-es-N-Mal-konstrukt zu haben, irgendwann ist die Programmiersprache dann Turing-mächtig.</p>
+
+<p>Der Vortragende hat schon des öfteren solche mikro-Programmiersprachen gebastelt, und wenn einige andere hier ein Beispiel mitbringen könnten, dürfte sich daraus vielleicht ein interessanter Patchworkvortrag ergeben.</p>
+
+<p>Der Vortrag stellt einen Kalender vor, der Code starten kann, und weil&rsquo;s so geschickt ist, sich um Datenschnittstellen und Datenübertragung zwischen den Jobs kümmert, so entstand mehr oder weniger zufällig ein verteiltes System zur verteilten Programmierung. Dadurch, dass es nicht geplant wurde, sondern historisch gewachsen ist, hat es einige Eigenschaften, die die üblichen verteilten Programmiersprachen (oder Parallelisierungserweiterungen, &hellip;) nicht haben. Ob sie sinnvoll sind, darüber kann man diskutieren. :-)</p>
+</div>
+  </div>
+</article>
+<article itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div>
+    <header class="post-list-title">
+      <a href="../../../../ccc/chaosseminar/2016_10_charset-encoding-font/">
+        <h2 itemprop="headline">Charset, Encoding &amp; Font</h2>
+      </a>
+      <p class="post-metadata row">
+        <span class="row-item">
+          <span class="fa fa-clock-o"></span>
+          <time datetime="2016-10-10" itemprop="datePublished">2016-10-10</time><span> in </span></span><span class="row-item">
+          <span class="fa fa-folder"></span>
+          <a href="../../../../categories/chaosseminar" rel="category">Chaos Seminar</a>
+        </span></p>
+    </header>
+    <div class="post-list-summary" itemprop="description">
+	  
+          
+
+<div class="chaosseminar-info">
+  <dl>
+      <dt>Thema</dt><dd>Charset, Encoding &amp; Font</dd>
+      <dt>Termin</dt><dd>2016-10-10 20:15</dd><dt>Ort</dt><dd>Uni Ulm, Hörsaal H22</dd><dt>Vortragende</dt><dd>meillo</dd>
+      <dt>Archiv</dt><dd>
+      
+      
+      </dd>
+  </dl>
+</div>
+
+<p>Dieser Vortrag bringt Licht in die Verwirrungen und das Unwissen im Themenfeld um Zeichensaetze (Charsets), Zeichenkodierungen (Encodings) und Schriften (Fonts).</p>
+
+<h3 id="links">Links</h3>
+
+<p>Fonts:</p>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Computer_font">https://en.wikipedia.org/wiki/Computer_font</a></li>
+<li><a href="http://www.linuxlibertine.org/">http://www.linuxlibertine.org/</a></li>
+<li><a href="http://www.linuxlibertine.org/uploads/pics/HT-Word2003-454x66px.png">http://www.linuxlibertine.org/uploads/pics/HT-Word2003-454x66px.png</a> (Hinting)</li>
+<li><a href="http://heirloom.sourceforge.net/doctools/otfdump.1.html">http://heirloom.sourceforge.net/doctools/otfdump.1.html</a></li>
+</ul>
+
+<p>Zeichensaetze:</p>
+
+<ul>
+<li><a href="https://de.wikipedia.org/wiki/Zeichensatz">https://de.wikipedia.org/wiki/Zeichensatz</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Code_point">https://en.wikipedia.org/wiki/Code_point</a></li>
+<li><a href="https://de.wikipedia.org/wiki/ASCII">https://de.wikipedia.org/wiki/ASCII</a></li>
+<li><a href="https://tools.ietf.org/html/rfc20">https://tools.ietf.org/html/rfc20</a></li>
+<li><a href="http://man7.org/linux/man-pages/man7/ascii.7.html">http://man7.org/linux/man-pages/man7/ascii.7.html</a></li>
+<li><a href="http://worldpowersystems.com/archives/codes/X3.4-1963/index.html">http://worldpowersystems.com/archives/codes/X3.4-1963/index.html</a></li>
+<li><a href="https://en.wikipedia.org/wiki/EBCDIC">https://en.wikipedia.org/wiki/EBCDIC</a></li>
+<li><a href="https://en.wikipedia.org/wiki/File:Blue-punch-card-front-horiz_top-char-contrast-stretched.png">https://en.wikipedia.org/wiki/File:Blue-punch-card-front-horiz_top-char-contrast-stretched.png</a> (macht das Layout von EBCDIC verstaendlich)</li>
+<li><a href="https://en.wikipedia.org/wiki/Unicode">https://en.wikipedia.org/wiki/Unicode</a></li>
+<li>ISO 10646 definiert sowohl ein Charset als auch mehrere Encodings</li>
+<li><a href="http://man7.org/linux/man-pages/man7/unicode.7.html">http://man7.org/linux/man-pages/man7/unicode.7.html</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Plane_(Unicode)#Basic_Multilingual_Plane">https://en.wikipedia.org/wiki/Plane_(Unicode)#Basic_Multilingual_Plane</a></li>
+<li><a href="https://de.wikipedia.org/w/index.php?title=Datei:Roadmap_to_Unicode_BMP_multilingual.svg&amp;lang=de">https://de.wikipedia.org/w/index.php?title=Datei:Roadmap_to_Unicode_BMP_multilingual.svg&amp;lang=de</a></li>
+</ul>
+
+<p>Encodings:</p>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Character_encoding">https://en.wikipedia.org/wiki/Character_encoding</a></li>
+<li><a href="https://en.wikipedia.org/wiki/UTF-8">https://en.wikipedia.org/wiki/UTF-8</a></li>
+<li><a href="https://tools.ietf.org/html/rfc3629">https://tools.ietf.org/html/rfc3629</a></li>
+<li><a href="http://man7.org/linux/man-pages/man7/utf-8.7.html">http://man7.org/linux/man-pages/man7/utf-8.7.html</a></li>
+<li><a href="http://doc.cat-v.org/bell_labs/utf-8_history">http://doc.cat-v.org/bell_labs/utf-8_history</a></li>
+<li><a href="https://en.wikipedia.org/wiki/UTF-16">https://en.wikipedia.org/wiki/UTF-16</a> (Gibt&rsquo;s in LE und BE)</li>
+<li><a href="https://tools.ietf.org/html/rfc2781">https://tools.ietf.org/html/rfc2781</a></li>
+<li><a href="https://en.wikipedia.org/wiki/UTF-32">https://en.wikipedia.org/wiki/UTF-32</a></li>
+<li><a href="https://en.wikipedia.org/wiki/UTF-7">https://en.wikipedia.org/wiki/UTF-7</a></li>
+<li><a href="https://tools.ietf.org/html/rfc2152">https://tools.ietf.org/html/rfc2152</a></li>
+<li><a href="https://en.wikipedia.org/wiki/UTF-9">https://en.wikipedia.org/wiki/UTF-9</a></li>
+<li><a href="https://tools.ietf.org/html/rfc4042">https://tools.ietf.org/html/rfc4042</a> (Vom 1. April 2005)</li>
+</ul>
+
+<p>Sollte man ausrotten:</p>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Byte_order_mark">https://en.wikipedia.org/wiki/Byte_order_mark</a></li>
+</ul>
+
+<p>Unicode-Zeichen und deren Repraesentation in verschiedenen Kodierungen:</p>
+
+<ul>
+<li><a href="http://www.fileformat.info/">http://www.fileformat.info/</a></li>
+<li><a href="http://www.fileformat.info/info/unicode/char/0041/index.htm">http://www.fileformat.info/info/unicode/char/0041/index.htm</a></li>
+<li><a href="http://www.fileformat.info/info/unicode/char/1f582/index.htm">http://www.fileformat.info/info/unicode/char/1f582/index.htm</a></li>
+</ul>
+
+<p>Wie man&rsquo;s richtig macht:</p>
+
+<ul>
+<li><a href="http://doc.cat-v.org/plan_9/4th_edition/papers/utf">http://doc.cat-v.org/plan_9/4th_edition/papers/utf</a></li>
+</ul>
+
+<p>Guter Uebersichtsartikel. Der Hauptfokus ist zwar auf Windows gelegt (weil dort der Bedarf am groessten ist), aber es wird viel allgemeines Wissen vermittelt:</p>
+
+<ul>
+<li><a href="http://utf8everywhere.org/">http://utf8everywhere.org/</a></li>
+</ul>
+
+<p>Ein Klassiker von Blogpost, wenn auch technisch nicht unbedingt der exakteste:</p>
+
+<ul>
+<li><a href="http://www.joelonsoftware.com/articles/Unicode.html">http://www.joelonsoftware.com/articles/Unicode.html</a></li>
+</ul>
+
+<p>Eine Erklaerung der Situation der Schriftsysteme in Ostasien (der Titel passt nicht unbedingt zum Inhalt):</p>
+
+<ul>
+<li><a href="http://www.hastingsresearch.com/net/04-unicode-limitations.shtml">http://www.hastingsresearch.com/net/04-unicode-limitations.shtml</a></li>
+</ul>
+
+<p>Auch Google vermischt Charsets und Encodings:</p>
+
+<ul>
+<li><a href="https://googleblog.blogspot.de/2010/01/unicode-nearing-50-of-web.html">https://googleblog.blogspot.de/2010/01/unicode-nearing-50-of-web.html</a></li>
+</ul>
+
+<p>Was zur Folge hatte, dass diese abgeleitete Grafik jahrelang in der Wikipedia zu finden war &ndash; im Namen Unicode, im Inhalt UTF-8:</p>
+
+<ul>
+<li><a href="https://commons.wikimedia.org/wiki/File:UnicodeGrow2b.png">https://commons.wikimedia.org/wiki/File:UnicodeGrow2b.png</a></li>
+</ul>
+
+<p>Bei PHP muss man der Charset-Methode ein Encoding uebergeben. Man hat einfach den Fehler von Mysql uebernommen, Charsets und Encodings in einen Topf zu werfen:</p>
+
+<ul>
+<li><a href="http://php.net/manual/en/mysqli.set-charset.php">http://php.net/manual/en/mysqli.set-charset.php</a></li>
+<li><a href="http://dev.mysql.com/doc/refman/5.7/en/charset-charsets.html">http://dev.mysql.com/doc/refman/5.7/en/charset-charsets.html</a></li>
+</ul>
+
+<p>Wir sollten uns mit der groessten Anstrengung bemuehen, Charsets
+und Encodings auseinander zu halten und als orthogonal zueinander
+anzusehen. (Orthogonalitaet ist eine so wertvolle Eigenschaft; sie
+sollte geschaetzt und angestrebt werden.) 90% der Verwirrung im
+Gebiet um Charsets und Encodings stammt daher, dass die beiden
+nicht so klar getrennt werden wie es ihre Natur ist. Es ist
+notwendig, dass wir anfangen, die zwei Dinge explizit auseinander
+zu halten, auf dass wir es der zukuenftigen Informatikwelt
+ermoeglichen, in diesem Thema klar zu sehen!</p>
+</div>
+  </div>
+</article>
+<ul class="menu">
+  <li class=""><a class="pagination" href="../../../../categories/chaosseminar/page/3/"> <span>&lt;</span> neuere Einträge</a></li>
+  <li class="pagination disabled">4</li>
+  <li class=""><a class="pagination" href="../../../../categories/chaosseminar/page/5/">ältere Einträge <span>&gt;</span></a></li>
+</ul></main>
+        <aside class="row-item small-full medium-third right" itemscope itemtype="http://schema.org/WPSideBar">
+  
+  <div class="widget">
+	<header>
+		<h4><a href="../../../../events/#termine"><span class="fa fa-calendar"></span> nächste Treffen</a></h4>
+	</header>
+	<ul class="events-side"><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">CCC Ulm:</b>
+	  <span itemprop="about">CCC Montagstreffen</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="clock icon" src="../../../../images/marker-time.svg">
+	  <time datetime="2019-08-05T20:00:00" content="2019-08-05T20:00:00" itemprop="startDate">2019-08-05 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="location icon" src="../../../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Uni Ulm, Cafe Einstein</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">Funkamateure:</b>
+	  <span itemprop="about">DARC Treffen</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="clock icon" src="../../../../images/marker-time.svg">
+	  <time datetime="2019-08-05T21:00:00" content="2019-08-05T21:00:00" itemprop="startDate">2019-08-05 21:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="location icon" src="../../../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Freiraum</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">Offenes Treffen:</b>
+	  <span itemprop="about">Hauptsache Cyber!</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="clock icon" src="../../../../images/marker-time.svg">
+	  <time datetime="2019-08-08T20:00:00" content="2019-08-08T20:00:00" itemprop="startDate">2019-08-08 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="location icon" src="../../../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Freiraum</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">CCC Ulm:</b>
+	  <span itemprop="about">Grillen</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="clock icon" src="../../../../images/marker-time.svg">
+	  <time datetime="2019-08-12T20:00:00" content="2019-08-12T20:00:00" itemprop="startDate">2019-08-12 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="location icon" src="../../../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">TODO</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">Funkamateure:</b>
+	  <span itemprop="about">DARC Treffen</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="clock icon" src="../../../../images/marker-time.svg">
+	  <time datetime="2019-08-12T21:00:00" content="2019-08-12T21:00:00" itemprop="startDate">2019-08-12 21:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="location icon" src="../../../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Freiraum</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">Offenes Treffen:</b>
+	  <span itemprop="about">Hauptsache Cyber!</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="clock icon" src="../../../../images/marker-time.svg">
+	  <time datetime="2019-08-15T20:00:00" content="2019-08-15T20:00:00" itemprop="startDate">2019-08-15 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="location icon" src="../../../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Freiraum</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">CCC Ulm:</b>
+	  <span itemprop="about">CCC Montagstreffen</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="clock icon" src="../../../../images/marker-time.svg">
+	  <time datetime="2019-08-19T20:00:00" content="2019-08-19T20:00:00" itemprop="startDate">2019-08-19 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="location icon" src="../../../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Uni Ulm, Cafe Einstein</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">Funkamateure:</b>
+	  <span itemprop="about">DARC Treffen</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="clock icon" src="../../../../images/marker-time.svg">
+	  <time datetime="2019-08-19T21:00:00" content="2019-08-19T21:00:00" itemprop="startDate">2019-08-19 21:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="location icon" src="../../../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Freiraum</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">Offenes Treffen:</b>
+	  <span itemprop="about">Hauptsache Cyber!</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="clock icon" src="../../../../images/marker-time.svg">
+	  <time datetime="2019-08-22T20:00:00" content="2019-08-22T20:00:00" itemprop="startDate">2019-08-22 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="location icon" src="../../../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Freiraum</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">CCC Ulm:</b>
+	  <span itemprop="about">CCC Montagstreffen</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="clock icon" src="../../../../images/marker-time.svg">
+	  <time datetime="2019-08-26T20:00:00" content="2019-08-26T20:00:00" itemprop="startDate">2019-08-26 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="location icon" src="../../../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Uni Ulm, Cafe Einstein</span>
+	  </span>
+    </li></ul>
+</div>
+  <div class="widget">
+	<header>
+		<h4><span class="fa fa-pencil"></span> <a href="../../../../post/">neueste Beiträge</a></h4>
+	</header>
+	<ul><li><a href="../../../../post/post_2019-07-20/">50 Jahre Mondladung</a></li><li><a href="../../../../post/2019-07-05/">Chaos Party Ulm: Vortragsvideos</a></li><li><a href="../../../../post/post_2019-06-17/">Chaos Party Ulm</a></li><li><a href="../../../../post/post_2019-03-23/">Matrix</a></li><li><a href="../../../../post/post_2019-02-04/">Don&#39;t panic</a></li><li><a href="../../../../post/post_2018-12-06/">Rückblick 2018</a></li><li><a href="../../../../post/post_2018-12-05/">ChaosSeminar 18/12</a></li><li><a href="../../../../post/post_2018-11-15/">Recent changes</a></li><li><a href="../../../../post/post_2018-10-18/">Workshop Schlüsseldienst</a></li><li><a href="../../../../post/post_2018-09-13/">Vorträge etc.</a></li></ul>
+</div>
+  
+	<div class="widget">
+	<header>
+		<h4><span class="fa fa-folder"></span> <a href="../../../../categories/">Kategorien</a></h4>
+	</header>
+	<ul><li><a href="../../../../categories/chaosseminar">Chaosseminar</a></li>
+		<li><a href="../../../../categories/ank%C3%BCndigungen">Ankündigungen</a></li>
+		<li><a href="../../../../categories/log">Log</a></li>
+		<li><a href="../../../../categories/projekte">Projekte</a></li>
+		<li><a href="../../../../categories/verein">Verein</a></li>
+		
+	</ul>
+</div>
+	
+</aside>
+
+      </div>
+      <footer class="row">
+        <div class="small-full medium-half row-item small-text-center medium-text-left"><small>&copy; 2019 <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Freiraum</span></span>.</small></div>
+        <div class="small-full medium-half row-item small-text-center medium-text-right" id="social-icons">
+          
+          
+          <a href="https://github.com/frrm">
+            <span class="fa fa-github"></span>
+          </a>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://crocell.crystaldown.de">
+            <span class="fa fa-wikipedia-w"></span>
+          </a>
+        </div>
+      </footer>
+    </div></body>
+</html>
