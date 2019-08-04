@@ -33,6 +33,11 @@
   </url>
   
   <url>
+    <loc>/ccc/chaosseminar/</loc>
+    <lastmod>2099-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/post_2019-07-20/</loc>
     <lastmod>2019-07-20T00:00:00+00:00</lastmod>
   </url>
@@ -1600,13 +1605,8 @@
   </url>
   
   <url>
-    <loc>/ccc/chaosseminar/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/chaosseminar/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2099-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

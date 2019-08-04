@@ -6,10 +6,22 @@
     <description>Recent content in Chaosseminar on Freiraum</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>2018</copyright>
-    <lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jan 2099 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/chaosseminar/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Chaos-Seminar</title>
+      <link>/ccc/chaosseminar/</link>
+      <pubDate>Thu, 01 Jan 2099 00:00:00 +0000</pubDate>
+      
+      <guid>/ccc/chaosseminar/</guid>
+      <description>Der CCC Erfa Ulm veranstaltet eine regelmäßige Reihe von öffentlichen Seminarvorträgen. Der Eintritt ist natürlich frei.
+Die Vorträge finden normalerweise an (fast) jedem 2. Montag im Monat um 20 Uhr im Hörsaal H20 (Gebäudekreuz O27) der Uni Ulm statt.
+Alle bisherigen und geplanten Themen und Termine findet ihr unten; die Vorträge werden zudem im Terminkalender und auf der news-Mailingliste angekündigt.
+Für den Fall, dass ihr einen Vortrag verpasst habt, findet ihr bei den meisten Seminaren auch eine Aufzeichung, als Video oder komfortabler Podcast in verschiedenen Formaten.</description>
+    </item>
     
     <item>
       <title>Reisebericht China</title>
@@ -2048,18 +2060,6 @@ E-Commerce bzw. E-Business, wie es mittlerweile in den Broschüren der großen S
       
       <guid>/ccc/chaosseminar/1999_01_die_tour_de_web/</guid>
       <description>ThemaDie Tour de Web Termin1999-01-04 20:00VortragendeFrank Kargl Archiv    Kaum ein Internet-User macht sich bei seiner täglichen Klickerei durch hunderte von Webseiten Gedanken, was im Hintergrund alles an technischen Vorgängen ablaufen muß, damit er rund um den Globus nach neuesten Informationen suchen kann. Routing, DNS, TCP/IP oder Ports sind nur einige der Schlagworte, die in diesem Zusammenhang immer wieder auftauchen. Dieser Vortrag gibt in für Anfänger verständlicher Form einen Überblick über das komplexe Zusammenspiel der verschiedenen Komponenten vom Klick bis zur fertigen Seite.</description>
-    </item>
-    
-    <item>
-      <title>Chaos-Seminar</title>
-      <link>/ccc/chaosseminar/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/ccc/chaosseminar/</guid>
-      <description>Der CCC Erfa Ulm veranstaltet eine regelmäßige Reihe von öffentlichen Seminarvorträgen. Der Eintritt ist natürlich frei.
-Die Vorträge finden normalerweise an (fast) jedem 2. Montag im Monat um 20 Uhr im Hörsaal H20 (Gebäudekreuz O27) der Uni Ulm statt.
-Alle bisherigen und geplanten Themen und Termine findet ihr unten; die Vorträge werden zudem im Terminkalender und auf der news-Mailingliste angekündigt.
-Für den Fall, dass ihr einen Vortrag verpasst habt, findet ihr bei den meisten Seminaren auch eine Aufzeichung, als Video oder komfortabler Podcast in verschiedenen Formaten.</description>
     </item>
     
   </channel>
