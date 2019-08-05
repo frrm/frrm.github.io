@@ -841,7 +841,7 @@ In allen Kontinenten sehen wir Lichterscheinungen, die eine Wirklichkeit wieder 
       <pubDate>Mon, 14 Feb 2011 00:00:00 +0000</pubDate>
       
       <guid>/ccc/chaosseminar/2011_02_ich_hab_doch_nichts_zu_verbergen/</guid>
-      <description>ThemaIch hab doch nichts zu verbergen Termin2011-02-14 20:00OrtUni Ulm, Hörsaal H20VortragendeNico, Matou Archiv  Video: M4V (iPod) (38.6 MB) Video: MP4 (81.6 MB) Video: Ogg Theora (72.8 MB) Video: MP4 HD (360.1 MB) Audio: MP3 (23.0 MB) Audio: Ogg Vorbis (16.9 MB) Audio: Opus (16.1 MB)    Folien: http://ulm.ccc.de/~matou/nichts_zu_verbergen.pdf
+      <description>ThemaIch hab doch nichts zu verbergen Termin2011-02-14 20:00OrtUni Ulm, Hörsaal H20VortragendeNico, Matou Archiv  Video: M4V (iPod) (38.6 MB) Video: MP4 (81.6 MB) Video: Ogg Theora (72.8 MB) Video: MP4 HD (360.1 MB) Audio: MP3 (23.0 MB) Audio: Ogg Vorbis (16.9 MB) Audio: Opus (16.1 MB)    Folien: http://dontpanic.ulm.ccc.de/~matou/nichts_zu_verbergen.pdf
 Wir fordern von unserem Staat, dass dieser uns vor bösen Menschen beschützt. Dafür braucht der Staat unsere Daten. In den letzten Jahren kamen immer wieder neue Ideen auf, wie diese Daten gesammelt werden können.</description>
     </item>
     
@@ -1503,7 +1503,7 @@ Forced by the US, Europe is just about to adopt a new form of patents that were 
       <pubDate>Mon, 11 Oct 2004 00:00:00 +0000</pubDate>
       
       <guid>/ccc/chaosseminar/2004_10_computer-algebra-systeme/</guid>
-      <description>ThemaComputer-Algebra-Systeme Termin2004-10-11 20:00VortragendeKatharina Müller Archiv  Folien: PDF (0.7 MB)    Unterlagen: http://ulm.ccc.de/chaos-seminar/computeralgebrasysteme/
+      <description>ThemaComputer-Algebra-Systeme Termin2004-10-11 20:00VortragendeKatharina Müller Archiv  Folien: PDF (0.7 MB)    Unterlagen: https://ulm.ccc.de/old/chaos-seminar/computeralgebrasysteme/
 Dieser Vortrag gibt einen Einblick in die verschiedensten Computeralgebrasysteme wie Maple, Matlab, Mathematica etc. Aber auch freie Systeme wie MuPAD, GNU Octave und Maxima sollen vorgestellt werden. Mit praktischen Anwendungsbeispielen wird die Syntax und die Handhabung des Systems kurz erläutert und anschließend die Vor- und Nachteile von kommerzieller und freier Software diskutiert.</description>
     </item>
     
@@ -1564,8 +1564,7 @@ Peer-to-Peer Netze sind seit geraumer Zeit in den Mittelpunkt öffentlicher Disk
       <pubDate>Mon, 08 Mar 2004 00:00:00 +0000</pubDate>
       
       <guid>/ccc/chaosseminar/2004_03_can_controler_area_network/</guid>
-      <description>ThemaCAN Controler Area Network Termin2004-03-08 20:00VortragendeAlexander Bernauer Archiv  Folien: PDF (0.9 MB)    Unterlagen: http://ulm.ccc.de/chaos-seminar/can/
-Das Controler Area Network ist als Busstandard dem normalen Hacker eher unbekannt. Vor allem im Automobilbau ist es jedoch der Standard schlechthin. Im Vortrag wird die Funktionsweise und die Prinzipien erklärt und gezeigt, warum sich CAN für harte Echzeitanwendungen so gut eignet. Am Beispiel des SJA1000 von Phillips wird schließlich eine Möglichkeit vorgestellt, mit dem PC auf einen CAN Bus zuzugreifen.</description>
+      <description>ThemaCAN Controler Area Network Termin2004-03-08 20:00VortragendeAlexander Bernauer Archiv  Folien: PDF (0.9 MB)    Das Controler Area Network ist als Busstandard dem normalen Hacker eher unbekannt. Vor allem im Automobilbau ist es jedoch der Standard schlechthin. Im Vortrag wird die Funktionsweise und die Prinzipien erklärt und gezeigt, warum sich CAN für harte Echzeitanwendungen so gut eignet. Am Beispiel des SJA1000 von Phillips wird schließlich eine Möglichkeit vorgestellt, mit dem PC auf einen CAN Bus zuzugreifen.</description>
     </item>
     
     <item>
@@ -1574,7 +1573,7 @@ Das Controler Area Network ist als Busstandard dem normalen Hacker eher unbekann
       <pubDate>Mon, 09 Feb 2004 00:00:00 +0000</pubDate>
       
       <guid>/ccc/chaosseminar/2004_02_scalable_vector_graphics/</guid>
-      <description>ThemaScalable Vector Graphics Termin2004-02-09 20:00VortragendeMarkus Schaber Archiv  Folien: PDF (0.1 MB) Video: MP4 (130.1 MB) Video: Ogg Theora (100.0 MB) Audio: Ogg Vorbis (24.3 MB) Audio: MP3 (41.2 MB)    Unterlagen: http://ulm.ccc.de/chaos-seminar/svg/
+      <description>ThemaScalable Vector Graphics Termin2004-02-09 20:00VortragendeMarkus Schaber Archiv  Folien: PDF (0.1 MB) Video: MP4 (130.1 MB) Video: Ogg Theora (100.0 MB) Audio: Ogg Vorbis (24.3 MB) Audio: MP3 (41.2 MB)    Unterlagen: http://dontpanic.ulm.ccc.de/~schabi/svg/
 SVG soll nach der Meinung des W3C der zukünftige Standard für Vektor-Grafiken und Multimedia-Inhalte sein. Dieser Vortrag gibt eine Übersicht der Features dieses Web-Grafik-Formates, und stellt einige Beispiele der verfügbaren Software vor.</description>
     </item>
     
@@ -1584,8 +1583,7 @@ SVG soll nach der Meinung des W3C der zukünftige Standard für Vektor-Grafiken 
       <pubDate>Mon, 12 Jan 2004 00:00:00 +0000</pubDate>
       
       <guid>/ccc/chaosseminar/2004_01_multimedia_formate/</guid>
-      <description>ThemaMultimediaformate Termin2004-01-12 20:00VortragendeMichael Feiri Archiv  Folien: PDF (0.3 MB)    Unterlagen: http://ulm.ccc.de/chaos-seminar/multimedia/
-QuickTime, AVI, MPEG, DivX und noch mehr Schlagworte hagelt es einem um die Ohren, doch kaum jemand weiß wie das Ganze funktioniert. Warum spielt mein Player das eine aber nicht das andere? Der Vortrag bring ein wenig Licht ins Dunkel, erklärt was ein Containerformat und was ein Codec ist, erläutert die einzelnen Formate und wie das alles zusammenhängt.</description>
+      <description>ThemaMultimediaformate Termin2004-01-12 20:00VortragendeMichael Feiri Archiv  Folien: PDF (0.3 MB) Folien: Quicktime (0.2 MB)    QuickTime, AVI, MPEG, DivX und noch mehr Schlagworte hagelt es einem um die Ohren, doch kaum jemand weiß wie das Ganze funktioniert. Warum spielt mein Player das eine aber nicht das andere? Der Vortrag bring ein wenig Licht ins Dunkel, erklärt was ein Containerformat und was ein Codec ist, erläutert die einzelnen Formate und wie das alles zusammenhängt.</description>
     </item>
     
     <item>
