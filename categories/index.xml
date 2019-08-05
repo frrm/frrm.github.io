@@ -6,17 +6,44 @@
     <description>Recent content in Categories on Freiraum</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>2018</copyright>
-    <lastBuildDate>Thu, 01 Jan 2099 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>ChaosSeminar</title>
+      <title>Ankündigungen</title>
+      <link>/categories/ank%C3%BCndigungen/</link>
+      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/ank%C3%BCndigungen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chaosseminar</title>
       <link>/categories/chaosseminar/</link>
       <pubDate>Thu, 01 Jan 2099 00:00:00 +0000</pubDate>
       
       <guid>/categories/chaosseminar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cpu</title>
+      <link>/categories/cpu/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/cpu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Infrastruktur</title>
+      <link>/categories/infrastruktur/</link>
+      <pubDate>Thu, 22 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/infrastruktur/</guid>
       <description></description>
     </item>
     
@@ -30,33 +57,6 @@
     </item>
     
     <item>
-      <title>CPU</title>
-      <link>/categories/cpu/</link>
-      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/cpu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ankündigungen</title>
-      <link>/categories/ank%C3%BCndigungen/</link>
-      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/ank%C3%BCndigungen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Verein</title>
-      <link>/categories/verein/</link>
-      <pubDate>Thu, 08 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/verein/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Projekte</title>
       <link>/categories/projekte/</link>
       <pubDate>Thu, 13 Apr 2017 00:00:00 +0000</pubDate>
@@ -66,11 +66,11 @@
     </item>
     
     <item>
-      <title>Infrastruktur</title>
-      <link>/categories/infrastruktur/</link>
-      <pubDate>Thu, 22 Nov 2012 00:00:00 +0000</pubDate>
+      <title>Verein</title>
+      <link>/categories/verein/</link>
+      <pubDate>Thu, 08 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/infrastruktur/</guid>
+      <guid>/categories/verein/</guid>
       <description></description>
     </item>
     
