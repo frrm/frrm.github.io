@@ -33,8 +33,26 @@
   </url>
   
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2099-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/ccc/chaosseminar/</loc>
     <lastmod>2099-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/chaosseminar/</loc>
+    <lastmod>2099-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -45,6 +63,24 @@
   <url>
     <loc>/post/post_2019-07-20/</loc>
     <lastmod>2019-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/log/</loc>
+    <lastmod>2019-07-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-07-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/cpu/</loc>
+    <lastmod>2019-07-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -243,6 +279,12 @@
   </url>
   
   <url>
+    <loc>/categories/ank%C3%BCndigungen/</loc>
+    <lastmod>2017-09-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/post/post_2017-09-23/</loc>
     <lastmod>2017-09-28T00:00:00+00:00</lastmod>
   </url>
@@ -283,6 +325,12 @@
   </url>
   
   <url>
+    <loc>/categories/verein/</loc>
+    <lastmod>2017-06-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/ccc/chaosseminar/2017_05_marathonbericht/</loc>
     <lastmod>2017-05-08T00:00:00+00:00</lastmod>
   </url>
@@ -290,6 +338,12 @@
   <url>
     <loc>/post/post_2017-04-13/</loc>
     <lastmod>2017-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/projekte/</loc>
+    <lastmod>2017-04-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -810,6 +864,12 @@
   <url>
     <loc>/post/post_2012-11-24/</loc>
     <lastmod>2012-11-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/infrastruktur/</loc>
+    <lastmod>2012-11-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1598,67 +1658,7 @@
   </url>
   
   <url>
-    <loc>/categories/ank%C3%BCndigungen/</loc>
-    <lastmod>2017-09-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2017-09-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/chaosseminar/</loc>
-    <lastmod>2099-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/cpu/</loc>
-    <lastmod>2019-07-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/infrastruktur/</loc>
-    <lastmod>2012-11-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/log/</loc>
-    <lastmod>2019-07-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2019-07-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/projekte/</loc>
-    <lastmod>2017-04-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/verein/</loc>
-    <lastmod>2017-06-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
