@@ -24,18 +24,6 @@ Für den Fall, dass ihr einen Vortrag verpasst habt, findet ihr bei den meisten 
     </item>
     
     <item>
-      <title>Freiraum- und CCC-Ulm-Webseite</title>
-      <link>/ccc/chaosseminar/2019_09_frrm-ccc-webseite/</link>
-      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/ccc/chaosseminar/2019_09_frrm-ccc-webseite/</guid>
-      <description>ThemaFreiraum- und CCC-Ulm-Webseite Termin2019-09-09 20:00OrtUni Ulm, Hörsaal H20 ?VortragendeRoland Archiv Noch keine Aufzeichnungsdateien verfügbar.   Kürzlich wurde der Terminkalender auf frrm.de umgebaut und erweitert, und die ulm.ccc.de-Webseite teilweise in die Freiraum-Webseite integriert.
-Dieser Vortrag gibt einen Überblick über die hierbei verwendete Vorgehensweise, notwendige Umbauten usw.
-geplanter Inhalt:
- Wie sollte eine Webseite idealerweise (aus meiner Sicht) erstellt/verwaltet werden? Wie sah die Freiraum-/CCC-Webseite bisher aus? Was waren die Probleme? Wie kann/konnte man diese lösen?</description>
-    </item>
-    
-    <item>
       <title>Reisebericht China</title>
       <link>/ccc/chaosseminar/2019_07_reisebericht_china/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
@@ -1996,6 +1984,19 @@ E-Commerce bzw. E-Business, wie es mittlerweile in den Broschüren der großen S
       
       <guid>/ccc/chaosseminar/1999_01_die_tour_de_web/</guid>
       <description>ThemaDie Tour de Web Termin1999-01-04 20:00VortragendeFrank Kargl Archiv  Folien: PDF (0.2 MB)    Kaum ein Internet-User macht sich bei seiner täglichen Klickerei durch hunderte von Webseiten Gedanken, was im Hintergrund alles an technischen Vorgängen ablaufen muß, damit er rund um den Globus nach neuesten Informationen suchen kann. Routing, DNS, TCP/IP oder Ports sind nur einige der Schlagworte, die in diesem Zusammenhang immer wieder auftauchen. Dieser Vortrag gibt in für Anfänger verständlicher Form einen Überblick über das komplexe Zusammenspiel der verschiedenen Komponenten vom Klick bis zur fertigen Seite.</description>
+    </item>
+    
+    <item>
+      <title>Freiraum- und CCC-Ulm-Webseite</title>
+      <link>/ccc/chaosseminar/2019_09_frrm-ccc-webseite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/ccc/chaosseminar/2019_09_frrm-ccc-webseite/</guid>
+      <description>ThemaFreiraum- und CCC-Ulm-Webseite Termin2019-09-23 oder 2019-09-09OrtUni Ulm, Hörsaal H20VortragendeRoland Archiv Noch keine Aufzeichnungsdateien verfügbar.   Das Datum wird in den nächsten Tagen festgelegt.
+Kürzlich wurde der Terminkalender auf frrm.de umgebaut und erweitert, und die ulm.ccc.de-Webseite teilweise in die Freiraum-Webseite integriert.
+Dieser Vortrag gibt einen Überblick über die hierbei verwendete Vorgehensweise, notwendige Umbauten usw.
+geplanter Inhalt:
+ Wie sollte eine Webseite idealerweise (aus meiner Sicht) erstellt/verwaltet werden? Wie sah die Freiraum-/CCC-Webseite bisher aus?</description>
     </item>
     
   </channel>
