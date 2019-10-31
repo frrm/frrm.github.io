@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Freiraum</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>2018</copyright>
-    <lastBuildDate>Thu, 19 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Chat auf neuem Server</title>
+      <link>/post/post_2019-10-31/</link>
+      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/post_2019-10-31/</guid>
+      <description>Ihr findet unseren Chatraum ab dem 05.11.2019 auf #freiraum:server.matrix4ulm.de. Der Server wird von vom Freifunk Ulm betrieben, schaut ruhig mal in ihrem #ffulm Channel vorbei. Die Piraten Ulm, die findet man jetzt auf (#piraten:shadowmind.de)[https://riot.matrix4ulm.de/#/room/#piraten:shadowmind.de].
+An dieser Stelle nochmal ein Danke an plusgut, der uns die letzten 3 Jahre auf matrix.lvl3.org gehostet hat.</description>
+    </item>
     
     <item>
       <title>CERN open days</title>
@@ -1052,17 +1062,6 @@ Hier findet sich das Programm in dem alle Talks aufgeführt sind.</description>
       <guid>/post/post_2011-06-20/</guid>
       <description>Diesen Donnerstag, 23. Juni 2011 21 Uhr, steht der Freiraum im Zeichen des Lockpicking.
 Anlässlich des ersten Treffens der Sportsfreunde der Sperrtechnik Ulm wird es eine Einführung in die Kunst des sportlichen Schlossöffnens geben. Nach einem kleinen Vortrag gibt es Übungswerkzeug und Schlösser für alle, die praktisch üben möchten.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/post/post_2019-10-31/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/post/post_2019-10-31/</guid>
-      <description>author = &amp;ldquo;frdnd&amp;rdquo; title = &amp;ldquo;Chat auf neuem Server&amp;rdquo; date = &amp;ldquo;2019-10-31&amp;rdquo; categories = [&amp;ldquo;Log&amp;rdquo;] hide_readingtime = true +++
-Ihr findet unseren Chatraum ab dem 05.11.2019 auf #freiraum:server.matrix4ulm.de. Der Server wird von vom Freifunk Ulm betrieben, schaut ruhig mal in ihrem #ffulm Channel vorbei. Die Piraten Ulm, die findet man jetzt auf (#piraten:shadowmind.de)[https://riot.matrix4ulm.de/#/room/#piraten:shadowmind.de].
-An dieser Stelle nochmal ein Danke an plusgut, der uns die letzten 3 Jahre auf matrix.lvl3.org gehostet hat.</description>
     </item>
     
   </channel>
