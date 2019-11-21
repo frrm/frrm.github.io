@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Freiraum</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>2018</copyright>
-    <lastBuildDate>Thu, 31 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Samstag geöffnet</title>
+      <link>/post/post_2019-11-21/</link>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/post_2019-11-21/</guid>
+      <description>Wer diesen Samstag 23.11. Lust darauf hat etwas zu basteln, oder den Freiraum kennenzulernen, kann gerne zwischen 15:00 - 21:00h vorbeikommen. Ein Programm oder Thema gibts nicht, ich werde mir z.B. den Sipeed Longan Nano/Maix Bit anschauen &amp;hellip;</description>
+    </item>
     
     <item>
       <title>Chat auf neuem Server</title>
