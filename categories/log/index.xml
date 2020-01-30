@@ -6,10 +6,21 @@
     <description>Recent content in Log on Freiraum</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>2018</copyright>
-    <lastBuildDate>Thu, 21 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/log/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vortragsankündigung</title>
+      <link>/post/post_2020-01-30/</link>
+      <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/post_2020-01-30/</guid>
+      <description>Viele von uns hätten so viel interessante Sachen zu erzählen, aber es braucht oft viel Überwindung einen Vortrag zu halten. Umso schöner ist es, dass wir in den nächsten Wochen gleich zwei Vorträge haben.
+Karotte/Lotta spricht am 06.02.2020 ab 20:00h über Vorwärts-Rückwärtsglättung von Objekttrajektorien unter Nutzung von Random-Finite-Sets. Zu Random-Finite-Sets findet man bei Wikipedia keinen Eintrag, deshalb hier ein Abstract :
+Multitarget tracking is the process of jointly determining the number of targets present and their states from noisy sets of measurements.</description>
+    </item>
     
     <item>
       <title>Samstag geöffnet</title>
@@ -80,17 +91,6 @@ Damit könnten wir alle sehen, was bei den anderen so anliegt, schnell und kurzw
       
       <guid>/post/post_2019-02-04/</guid>
       <description>Wir werden in den nächsten Tagen unsere Seite von Github-pages nach auf die dontpanic vom CCC-Ulm umziehen.</description>
-    </item>
-    
-    <item>
-      <title>Vortragsankündigung</title>
-      <link>/post/post_2020-01-30/</link>
-      <pubDate>Wed, 30 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/post_2020-01-30/</guid>
-      <description>Viele von uns hätten so viel interessante Sachen zu erzählen, aber es braucht oft viel Überwindung einen Vortrag zu halten. Umso schöner ist es, dass wir in den nächsten Wochen gleich zwei Vorträge haben.
-Karotte/Lotta spricht am 06.02.2020 ab 20:00h über Vorwärts-Rückwärtsglättung von Objekttrajektorien unter Nutzung von Random-Finite-Sets. Zu Random-Finite-Sets findet man bei Wikipedia keinen Eintrag, deshalb hier ein Abstract :
-Multitarget tracking is the process of jointly determining the number of targets present and their states from noisy sets of measurements.</description>
     </item>
     
     <item>
