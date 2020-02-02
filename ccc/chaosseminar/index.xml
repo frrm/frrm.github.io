@@ -12,6 +12,30 @@
     
     
     <item>
+      <title>SQLite als Programmiersprache und FiBu</title>
+      <link>/ccc/chaosseminar/sqlite/</link>
+      <pubDate>Sat, 02 Jan 9999 00:00:00 +0000</pubDate>
+      
+      <guid>/ccc/chaosseminar/sqlite/</guid>
+      <description> ThemaSQLite als Programmiersprache und FiBu Termingeplant, evtl. AprilOrtUni Ulm, Hörsaal H20VortragendeRoland Archiv Noch keine Aufzeichnungsdateien verfügbar.   Vortragsinhalte:
+ SQL und SQLite:
+ Programmieren von Anwendungen rein in SQL, ohne andere Programmiersprachen
+(per Tabellen, Views, Trigger, GUIs/Formulare aus Tabellen usw.) Beispiel: Finanzbuchhaltungs-Software rein in SQLite, inkl. Bilanz/e-Bilanz
+(SELECT * FROM Bilanz)  SQLite-Frontends:
+ Übersicht Erfahrungen Design-Bugs   </description>
+    </item>
+    
+    <item>
+      <title>Beschriftungsgeräte und Reverse-Engineering</title>
+      <link>/ccc/chaosseminar/beschriftungsgeraete/</link>
+      <pubDate>Fri, 01 Jan 9999 00:00:00 +0000</pubDate>
+      
+      <guid>/ccc/chaosseminar/beschriftungsgeraete/</guid>
+      <description> ThemaBeschriftungsgeräte und Reverse-Engineering Termingeplant, evtl. MärzOrtUni Ulm, Hörsaal H20VortragendeRoland Archiv Noch keine Aufzeichnungsdateien verfügbar.   Vortragsinhalte:
+ Beschriftungsgeräte:  Gerätearten, Abgrenzung zu Labeldruckern Funktionsweise Marktübersicht / Kaufempfehlungen  Erstellung eines Epson LabelWorks-Treibers für Linux per Reverse-Engineering:  Wireshark + USB Disassembler, Decompiler Fallstricke Erfahrungen   </description>
+    </item>
+    
+    <item>
       <title>Familie/Daseinsfürsorge: Ehe, Erbe und der digitale Nachlass.</title>
       <link>/ccc/chaosseminar/2020_02_familie/</link>
       <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
