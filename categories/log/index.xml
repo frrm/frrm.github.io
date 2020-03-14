@@ -6,10 +6,20 @@
     <description>Recent content in Log on Freiraum</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>2018</copyright>
-    <lastBuildDate>Thu, 30 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/log/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pause</title>
+      <link>/post/post_2020-03-14/</link>
+      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/post_2020-03-14/</guid>
+      <description>Im Rahmen der allgemeinen Empfehlungen machen wir auch erstmal bis zum 23.04. zu, diese Entscheidung ist mit Freifunk, Funkamateuren, OSM abgestimmt.
+Die Treffen bei uns finden zwar war eher im kleinen Rahmen statt, wir sind der Meinung, dass wir nicht viel verlieren wenn wir mal 2 Monate zu machen. Zumal es mit der Hygiene auch nicht so optimal aussieht (keine Einweghandtücher, kaltes Wasser). Laut aktuellem Podcast mit Drosten (https://www.ndr.de/nachrichten/info/podcast4684.html) wird das Virus eher über die Luft verbreitet, weswegen man sich nicht mit größeren Menschenmengen in kleinen Räumen aufhalten sollte.</description>
+    </item>
     
     <item>
       <title>Vortragsankündigung</title>
