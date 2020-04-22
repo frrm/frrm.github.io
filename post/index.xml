@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Freiraum</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>2018</copyright>
-    <lastBuildDate>Sat, 14 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pause</title>
+      <link>/post/post_2020-04-22/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/post_2020-04-22/</guid>
+      <description>Da sich an der Situation grundsätzlich nichts geändert hat und wir bei den &amp;ldquo;offenen Treffen&amp;rdquo; im Schnitt 1-2h auf engem Raum zusammen sind, finden in nächster Zeit keine Gruppentreffen statt.
+Ihr könnt uns gerne im Matrix-Channel besuchen, https://riot.matrix4ulm.de/#/room/#freiraum:server.matrix4ulm.de. Jani schaut sich dort z.B. gerade die unterschiedlichen Corona-Tracking Apps an.</description>
+    </item>
     
     <item>
       <title>Pause</title>
