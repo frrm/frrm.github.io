@@ -6,10 +6,21 @@
     <description>Recent content in Log on Freiraum</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>2018</copyright>
-    <lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/log/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>systemctl suspend</title>
+      <link>/post/post_2020-10-18/</link>
+      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/post_2020-10-18/</guid>
+      <description>Da wir in Ulm gerade einen höheren Inzidenzwert um die 50 haben und auch Neu-Ulm (Bayern) ziemlich strikte Regeln verhängt, schließen wir den Freiraum bis auf Weiteres für öffentliche Treffen.
+Falls ihr Fragen habt, oder mal einzeln in die Werkstatt wollt, sagt uns einfach im Matrix Channel Bescheid. Sollte sich die Situation über längere Zeit nicht entspannen, können wir uns dort über Jitsi virtuelle treffen.
+Bis bald!</description>
+    </item>
     
     <item>
       <title>Jabber-Server läuft wieder</title>
@@ -17,17 +28,6 @@
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/post_2020-07-01/</guid>
-      <description>Unser Jabber-Server war tot. Wir haben uns leider bei prosody und certbot verscriptet, weshalb prosody nach dem SSL-Zertifikat-Update nicht mehr SSL sprechen wollte. Dies haben wir mittlerweile repariert.
-Außerdem geht unsere Status-Seite wieder: https://jabber.ulm.ccc.de/status.html
-Viel Spaß beim Quatschen!</description>
-    </item>
-    
-    <item>
-      <title>Jabber-Server läuft wieder</title>
-      <link>/post/post_2020-10-18/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/post/post_2020-10-18/</guid>
       <description>Unser Jabber-Server war tot. Wir haben uns leider bei prosody und certbot verscriptet, weshalb prosody nach dem SSL-Zertifikat-Update nicht mehr SSL sprechen wollte. Dies haben wir mittlerweile repariert.
 Außerdem geht unsere Status-Seite wieder: https://jabber.ulm.ccc.de/status.html
 Viel Spaß beim Quatschen!</description>
