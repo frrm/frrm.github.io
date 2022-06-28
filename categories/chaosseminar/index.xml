@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ChaosSeminar on Freiraum</title>
@@ -6,11 +6,7 @@
     <description>Recent content in ChaosSeminar on Freiraum</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>2018</copyright>
-    <lastBuildDate>Sat, 02 Jan 9999 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/categories/chaosseminar/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 02 Jan 9999 00:00:00 +0000</lastBuildDate><atom:link href="/categories/chaosseminar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SQLite als Programmiersprache und FiBu</title>
       <link>/ccc/chaosseminar/sqlite/</link>
@@ -18,11 +14,11 @@
       
       <guid>/ccc/chaosseminar/sqlite/</guid>
       <description> ThemaSQLite als Programmiersprache und FiBu Termingeplant, evtl. AprilOrtUni Ulm, Hörsaal H20VortragendeRoland Archiv Noch keine Aufzeichnungsdateien verfügbar.   Vortragsinhalte:
- SQL und SQLite:
+  SQL und SQLite:
  Programmieren von Anwendungen rein in SQL, ohne andere Programmiersprachen
 (per Tabellen, Views, Trigger, GUIs/Formulare aus Tabellen usw.) Beispiel: Finanzbuchhaltungs-Software rein in SQLite, inkl. Bilanz/e-Bilanz
-(SELECT * FROM Bilanz)  SQLite-Frontends:
- Übersicht Erfahrungen Design-Bugs   </description>
+(SELECT * FROM Bilanz)    SQLite-Frontends:
+ Übersicht Erfahrungen Design-Bugs    </description>
     </item>
     
     <item>
@@ -32,7 +28,7 @@
       
       <guid>/ccc/chaosseminar/beschriftungsgeraete/</guid>
       <description> ThemaBeschriftungsgeräte und Reverse-Engineering Termingeplant, evtl. MärzOrtUni Ulm, Hörsaal H20VortragendeRoland Archiv Noch keine Aufzeichnungsdateien verfügbar.   Vortragsinhalte:
- Beschriftungsgeräte:  Gerätearten, Abgrenzung zu Labeldruckern Funktionsweise Marktübersicht / Kaufempfehlungen  Erstellung eines Epson LabelWorks-Treibers für Linux per Reverse-Engineering:  Wireshark + USB Disassembler, Decompiler Fallstricke Erfahrungen   </description>
+ Beschriftungsgeräte:  Gerätearten, Abgrenzung zu Labeldruckern Funktionsweise Marktübersicht / Kaufempfehlungen   Erstellung eines Epson LabelWorks-Treibers für Linux per Reverse-Engineering:  Wireshark + USB Disassembler, Decompiler Fallstricke Erfahrungen    </description>
     </item>
     
     <item>
@@ -236,7 +232,8 @@ Wie scheiße das Build Environment für Android ist und wie geil Docker ist um d
       
       <guid>/ccc/chaosseminar/2018_01_assetmanagement_und_configurationmanagement/</guid>
       <description>ThemaAsset Management und Configuration Management Termin2018-01-08 20:00OrtUni Ulm, Hörsaal H20VortragendeMarcus Archiv Dieser Vortrag wird nicht aufgezeichnet.   Wenn man mehr als ein paar hundert Rechner zu verwalten hat, braucht das Strategien und eine Softwareimplementierung. Wir erarbeiten die Stolpersteine mithilfe von Anwendungsfällen (engl.: use cases), reden über die Strategie in Form von Prozessen und über die Software in Form von Beispielen.
-Ausschnitte aus der Vorbereitungsliste zum Appetit machen:</description>
+Ausschnitte aus der Vorbereitungsliste zum Appetit machen:
+Anwendungsfälle  neue VM anlegen für einen Dienst neuen Softwarecache anlegen Feuerzellkonzept und Updates  Kosten  Was kostet eine VM?</description>
     </item>
     
     <item>
@@ -358,7 +355,8 @@ Nach einer Einführung in IPv6 und Path-Maximum-Transfer-Unit-Discovery, werden 
       
       <guid>/ccc/chaosseminar/2016_10_charset-encoding-font/</guid>
       <description>ThemaCharset, Encoding &amp;amp; Font Termin2016-10-10 20:15OrtUni Ulm, Hörsaal H22Vortragendemeillo Archiv  Video: MP4 (131.2 MB) Video: Ogg Theora (589.5 MB) Video: M4V (iPod) (90.3 MB) Video: MP4 HD (481.7 MB) Audio: MP3 (79.2 MB) Audio: Ogg Vorbis (32.9 MB) Audio: Opus (65.4 MB)    Dieser Vortrag bringt Licht in die Verwirrungen und das Unwissen im Themenfeld um Zeichensaetze (Charsets), Zeichenkodierungen (Encodings) und Schriften (Fonts).
-Links Fonts:</description>
+Links Fonts:
+ https://en.</description>
     </item>
     
     <item>
@@ -1055,7 +1053,7 @@ Dieser Vortrag soll Software vorstellen die schon einige Jahre auf dem Buckel ha
       <pubDate>Mon, 14 Sep 2009 00:00:00 +0000</pubDate>
       
       <guid>/ccc/chaosseminar/2009_09_linux_kernel_hacking_ii/</guid>
-      <description>ThemaLinux Kernel Hacking (Teil 2) Termin2009-09-14 20:00OrtUni Ulm, Hörsaal H20VortragendeGeorg Gottleuber Archiv  Folien: PDF (0.2 MB) Video: M4V (iPod) (68.6 MB) Video: MP4 (209.1 MB) Video: Ogg Theora (197.1 MB) Video: MP4 HD (733.0 MB) Audio: MP3 (41.8 MB) Audio: Ogg Vorbis (31.4 MB) Codebeispiele im Quelltext: minimodule.tar.gz (0.0 MB)    Nach der Einführung im ersten Teil, geht es jetzt ans Eingemachte. Wie man dem Kernel mit eigenem C-Code einen Tritt verpasst, wird an Hand von Codebeispielen erläutert.</description>
+      <description>ThemaLinux Kernel Hacking (Teil 2) Termin2009-09-14 20:00OrtUni Ulm, Hörsaal H20VortragendeGeorg Gottleuber Archiv  Folien: PDF (0.2 MB) Video: M4V (iPod) (68.6 MB) Video: MP4 (209.1 MB) Video: Ogg Theora (197.1 MB) Video: MP4 HD (733.0 MB) Audio: MP3 (41.8 MB) Audio: Ogg Vorbis (31.4 MB) Codebeispiele im Quelltext: TAR.GZ (0.0 MB)    Nach der Einführung im ersten Teil, geht es jetzt ans Eingemachte. Wie man dem Kernel mit eigenem C-Code einen Tritt verpasst, wird an Hand von Codebeispielen erläutert.</description>
     </item>
     
     <item>
@@ -1554,7 +1552,7 @@ Dabei werden die Benutzer bezüglich der Funktionalität getäuscht. Es wird ein
       <pubDate>Thu, 04 Nov 2004 00:00:00 +0000</pubDate>
       
       <guid>/ccc/chaosseminar/2004_11_gefahren_der_softwarepatente/</guid>
-      <description>ThemaThe Danger of Software Patents / Gefahren der Softwarepatente Termin2004-11-04 20:00VortragendeRichard Stallman Archiv  Video: MP4 (138.8 MB) Video: Ogg Theora (92.8 MB) Audio: MP3 (21.5 MB) Audio: Ogg Vorbis (22.4 MB) Video Q&amp;amp;A: cs-200411-rms-questions_video.avi (52.9 MB) Video Q&amp;amp;A: cs-200411-rms-questions_video.mp4 (44.9 MB)    Poster: stallman-plakat-de.pdf
+      <description>ThemaThe Danger of Software Patents / Gefahren der Softwarepatente Termin2004-11-04 20:00VortragendeRichard Stallman Archiv  Video: MP4 (138.8 MB) Video: Ogg Theora (92.8 MB) Audio: MP3 (21.5 MB) Audio: Ogg Vorbis (22.4 MB) Video Q&amp;amp;A: AVI (52.9 MB) Video Q&amp;amp;A: MP4 (44.9 MB)    Poster: stallman-plakat-de.pdf
 englischsprachige Ankündigung:
 Forced by the US, Europe is just about to adopt a new form of patents that were illegal up to now: Patents on Software.</description>
     </item>
@@ -1956,8 +1954,8 @@ Der Vortrag behandelt moderne Schließzylinder, wie sind sie aufgebaut, wie funk
       
       <guid>/ccc/chaosseminar/2000_07_02_lka/</guid>
       <description>ThemaLKA Termin2000-07-17 20:00Vortragende Archiv Noch keine Aufzeichnungsdateien verfügbar.   Ein Vertreter des LKA Baden-Württemberg wird aus Sicht der Polizei Informationen zu folgenden Themen liefern:
--die Netzwerkfahndung des LKA - Gefahrenquellen/Kriminalität im Internet - Verhalten bei Auffinden von strafbaren Inhalten - Verantwortlichkeit von Anbietern/Diensteanbietern
-Anschliessend wird ausreichend Gelegenheit zu Diskussion bleiben. Da gerade im Bereich der Internet-Kriminalität eine weit verbreitete Unsicherheit zu Fragen des Rechts und der Strafverfolgung besteht, bietet sich hier die Möglichkeit, sich direkt und umfassend zu informieren und die eigenen Meinungen und Standpunkte zu diskutieren.</description>
+-die Netzwerkfahndung des LKA
+ Gefahrenquellen/Kriminalität im Internet Verhalten bei Auffinden von strafbaren Inhalten Verantwortlichkeit von Anbietern/Diensteanbietern  Anschliessend wird ausreichend Gelegenheit zu Diskussion bleiben. Da gerade im Bereich der Internet-Kriminalität eine weit verbreitete Unsicherheit zu Fragen des Rechts und der Strafverfolgung besteht, bietet sich hier die Möglichkeit, sich direkt und umfassend zu informieren und die eigenen Meinungen und Standpunkte zu diskutieren.</description>
     </item>
     
     <item>
@@ -2030,7 +2028,8 @@ E-Commerce bzw. E-Business, wie es mittlerweile in den Broschüren der großen S
       <pubDate>Mon, 12 Apr 1999 00:00:00 +0000</pubDate>
       
       <guid>/ccc/chaosseminar/1999_04_die_netiquette_-_wie_verhalte_ich_mich_im_internet/</guid>
-      <description>ThemaDie Netiquette - wie verhalte ich mich im Internet Termin1999-04-12 20:00VortragendeJürgen Dollinger Archiv  Folien: PDF (0.0 MB)    Die Zahl der Internet-User nimmt dramatisch zu. Doch vielen Anfänger fehlt es an der Zeit, sich in Ruhe mit den Gepflogenheiten dieses für sie neuen Mediums vertraut zu machen. Geblendet von den Hochglanz-Seiten der Hersteller, von bunten Webchats und Gigabyte an downloadbaren Programmen, vergessen sie nur allzuoft, - daß hinter den oft anonym agierenden Kommunikationspartnern auch Menschen stecken, die man durch sein Verhalten vor den Kopf stößt.</description>
+      <description>ThemaDie Netiquette - wie verhalte ich mich im Internet Termin1999-04-12 20:00VortragendeJürgen Dollinger Archiv  Folien: PDF (0.0 MB)    Die Zahl der Internet-User nimmt dramatisch zu. Doch vielen Anfänger fehlt es an der Zeit, sich in Ruhe mit den Gepflogenheiten dieses für sie neuen Mediums vertraut zu machen. Geblendet von den Hochglanz-Seiten der Hersteller, von bunten Webchats und Gigabyte an downloadbaren Programmen, vergessen sie nur allzuoft,
+ daß hinter den oft anonym agierenden Kommunikationspartnern auch Menschen stecken, die man durch sein Verhalten vor den Kopf stößt.</description>
     </item>
     
     <item>

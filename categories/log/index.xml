@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Log on Freiraum</title>
@@ -6,10 +6,39 @@
     <description>Recent content in Log on Freiraum</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>2018</copyright>
-    <lastBuildDate>Sun, 18 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/log/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lockpicking-Gruppe</title>
+      <link>/post/post_2022-06-26/</link>
+      <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/post_2022-06-26/</guid>
+      <description>Wir haben die Ulmer Lockpicking-Gruppe wiederbelebt: Geplant sind nun monatliche Lockpicking-Treffen im Freiraum, voraussichtlich abwechselnd beim CCC-Montagstreffen und beim Offenen (Donnerstags-)Treffen.
+Willkommen ist jede(r), die/der sich an die SSDeV-Sportordnung hält.
+Los geht&amp;rsquo;s beim nächsten CCC-Montagstreffen (27.06. ab 20:00) mit einem Einführungs-Vortrag (Rahmenbedingungen, SSDeV, Schlösser-Überblick, Techniken usw.) und praktischem Ausprobieren danach.
+Für die weiteren Treffen sind verschiedene Schwerpunkte geplant, z.B.:
+ verschiedene Schlösser:  Zahlenschlösser / Kombinationsschlösser &amp;ldquo;normale&amp;rdquo; Stiftzylinder Scheibenschlösser (z.B. Briefkastenschlösser), Bahnenschlösser Bohrmuldenschlösser Drehscheibenzylinder Tubularschlösser Buntbartschlösser Tresorschlösser Zuhaltungsschlösser / Chubbschlösser / Schließfachschlösser &amp;ldquo;nicht-Schlösser&amp;rdquo; / Pseudo-Schlösser spezielle Schlosstypen (z.</description>
+    </item>
     
-	<atom:link href="/categories/log/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Treffen</title>
+      <link>/post/post_2022-04-19/</link>
+      <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/post_2022-04-19/</guid>
+      <description>Seit kurzem finden unsere Treffen wieder statt (2G + Maske), insbesondere:
+ Montag: CCC-Ulm Montagstreff Donnerstag: Offenes Treffen  Ob/wann die Treffen stattfinden, seht ihr unter Termine.
+Die Treffen sind allerdings noch etwas kleiner als früher, und es kann auch sein, dass an einem Termin mal niemand da ist. Fragt deshalb am besten vorher in unserem Matrix-Channel #freiraum nach.</description>
+    </item>
     
+    <item>
+      <title>alive</title>
+      <link>/post/post_2021-10-17/</link>
+      <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/post_2021-10-17/</guid>
+      <description>Wir leben noch und treffen uns mit 2G + Maske Regel.</description>
+    </item>
     
     <item>
       <title>systemctl suspend</title>
@@ -41,10 +70,10 @@ Viel Spaß beim Quatschen!</description>
       <guid>/post/post_2020-06-18/</guid>
       <description>Der Freiraum hat morgen Donnerstag 25.06 wieder, wie gewohnt 20:00h, auf.
 Bitte achtet auf folgende Einschränkungen:
- maximal 10 Personen im Freiraum mit 1.5m Abstand (d.h. max 4-5 Leute im Chillout raum)
- desinfiziert euch bitte die Hände mit dem bereitgestellten Desinfektionsgel/Einmalhandtüchern
- tragt euch mit Kontaktdaten in die Anwesenheitsliste ein
- (so weit es das Wetter zulässt) kräftig lüften und die zwei 110W Ventilatoren in die geöffneten Fenster stellen</description>
+  maximal 10 Personen im Freiraum mit 1.5m Abstand (d.h. max 4-5 Leute im Chillout raum)
+  desinfiziert euch bitte die Hände mit dem bereitgestellten Desinfektionsgel/Einmalhandtüchern
+  tragt euch mit Kontaktdaten in die Anwesenheitsliste ein
+  (so weit es das Wetter zulässt) kräftig lüften und die zwei 110W Ventilatoren in die geöffneten Fenster stellen</description>
     </item>
     
     <item>
@@ -310,7 +339,7 @@ Die Slides zum Vortrag gibts hier (englisch).</description>
       
       <guid>/post/post_2017-11-03/</guid>
       <description>Über ungelegte Eier spricht man nicht, trotzdem macht es Sinn etwas über unsere Pläne für die nächsten Monate zu schreiben :)
- Unsere neueste &amp;ldquo;Anschaffung&amp;rdquo; ist der neue Nebenraum, den wir für Seminare/Vorträge und Youtube-Abende nutzen werden. Der Raum befindet sich gerade noch im Aufbau (Sofa, Beamer, Soundsystem sind schon da) und wird in Zukunft öfter genutzt werden. Sobald wir fertig eingerichtet sind, gibts an dieser Stelle ein paar Bilder.</description>
+  Unsere neueste &amp;ldquo;Anschaffung&amp;rdquo; ist der neue Nebenraum, den wir für Seminare/Vorträge und Youtube-Abende nutzen werden. Der Raum befindet sich gerade noch im Aufbau (Sofa, Beamer, Soundsystem sind schon da) und wird in Zukunft öfter genutzt werden. Sobald wir fertig eingerichtet sind, gibts an dieser Stelle ein paar Bilder.</description>
     </item>
     
     <item>

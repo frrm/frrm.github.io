@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Verein on Freiraum</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Verein on Freiraum</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>2018</copyright>
-    <lastBuildDate>Thu, 08 Jun 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/categories/verein/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 08 Jun 2017 00:00:00 +0000</lastBuildDate><atom:link href="/categories/verein/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Heute ist Mitgliederversammlung</title>
       <link>/post/post_2017-06-08/</link>
@@ -47,10 +43,10 @@ This week we will begin with the first official steps towards a hackerspace-asso
       
       <guid>/post/post_2013-06-30/</guid>
       <description>Hier ein kurzes Protokoll der Beschlüsse vom letzten Donnerstag:
- Vereinsgründung
+  Vereinsgründung
 Wir werden für den Freiraum einen Verein gründen um die Organisation zu vereinfachen. Gründungsmitglieder oder sonstige Hilfe bei der Vereinsgründung sind herzlich willkommen (einfach per Mail oder im Freiraum einen von den Mitgliedern ansprechen).
- Lightening Talks
-Es wird eine neue Veranstaltungsreihe (jeden 3. Do im Monat) eingeführt. Dazu hält mindestens eine Person einen Kurzvortrag zu einem beliebigen Thema. Die Vorträge müssen nicht besonders ausgefeilt sein, es geht eher um die Kommunikation von Ideen (oder Problemen) als um die perfekte Präsentation.</description>
+  Lightening Talks
+Es wird eine neue Veranstaltungsreihe (jeden 3. Do im Monat) eingeführt. Dazu hält mindestens eine Person einen Kurzvortrag zu einem beliebigen Thema.</description>
     </item>
     
   </channel>
