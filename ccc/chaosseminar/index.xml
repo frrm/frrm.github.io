@@ -32,6 +32,17 @@
     </item>
     
     <item>
+      <title>Fernwartung per SSH und Reverse SSH-Shell (eher kürzer)</title>
+      <link>/ccc/chaosseminar/fernwartung_ssh/</link>
+      <pubDate>Fri, 01 Jan 9999 00:00:00 +0000</pubDate>
+      
+      <guid>/ccc/chaosseminar/fernwartung_ssh/</guid>
+      <description> ThemaFernwartung per SSH und Reverse SSH-Shell (eher kürzer) Termin9999-01-01 20:00OrtUni Ulm, Hörsaal H20VortragendeRoland Archiv Noch keine Aufzeichnungsdateien verfügbar.   Vortragsinhalte:
+Fernwartung:
+ Warum? Einsatzgebiete? Funktionsweise, Anforderungen Programme: TeamViewer? Nein, SSH! Fernwartung per ssh (+ggf. VNC) &amp;ldquo;Reverse SSH-Shell&amp;rdquo;: Fernwartung per SSH ohne SSH-Server auf dem Zielrechner  </description>
+    </item>
+    
+    <item>
       <title>Familie/Daseinsfürsorge: Ehe, Erbe und der digitale Nachlass.</title>
       <link>/ccc/chaosseminar/2020_02_familie/</link>
       <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
