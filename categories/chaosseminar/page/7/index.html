@@ -51,6 +51,102 @@
 		    <h1 id="page-title">Kategorie: ChaosSeminar</h1>
 		</header><article itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div>
     <header class="post-list-title">
+      <a href="../../../../ccc/chaosseminar/2016_05_spasz_mit_ipv6/">
+        <h2 itemprop="headline">Spaß mit IPv6 Implementierungen</h2>
+      </a>
+      <p class="post-metadata row">
+        <span class="row-item"><span class="fa fa-clock-o"></span>
+          <time datetime="2016-05-09" itemprop="datePublished">2016-05-09</time><span> in </span></span><span class="row-item">
+          <span class="fa fa-folder"></span>
+          <a href="../../../../categories/chaosseminar" rel="category">Chaos Seminar</a>
+        </span></p>
+    </header>
+    <div class="post-list-summary" itemprop="description">
+	  
+          <div class="chaosseminar-info">
+  <dl>
+      <dt>Thema</dt><dd>Spaß mit IPv6, widersprechenden Standards und Herstellerimplementierungen</dd>
+      <dt>Termin</dt><dd>2016-05-09 20:00</dd><dt>Ort</dt><dd>Uni Ulm, Hörsaal H20</dd><dt>Vortragende</dt><dd>Marcus</dd>
+      <dt>Archiv</dt><dd>
+      
+        <ul>
+        
+            <li>Video: <a href="https://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_video.m4v">M4V (iPod)</a> (44.4 MB)</li>
+            <li>Video: <a href="https://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_video.mp4">MP4</a> (67.3 MB)</li>
+            <li>Video: <a href="https://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_video.ogv">Ogg Theora</a> (274.9 MB)</li>
+            <li>Video: <a href="https://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_video_high.mp4">MP4 HD</a> (248.1 MB)</li>
+            <li>Audio: <a href="https://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_audio.mp3">MP3</a> (38.2 MB)</li>
+            <li>Audio: <a href="https://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_audio.ogg">Ogg Vorbis</a> (17.2 MB)</li>
+            <li>Audio: <a href="https://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_audio.opus">Opus</a> (29.6 MB)</li></ul>
+      </dd>
+    </dl>
+  </div>
+<h3 id="vortragszusammenfassung">Vortragszusammenfassung</h3>
+<p>Alias Resolution beschäftigt sich mit der Frage: Sind diese beiden Adressen 2001::1 und 2004::f der gleiche Router?
+Es werden Verfahren zur IPv6 Alias Resolution erklärt und partiell demonstriert.</p>
+<h3 id="weitere-inhalte">weitere Inhalte</h3>
+<p>Wir verschaffen uns einen Überblick über den IPv6 Standard, das Spannungsfeld zwischen Standardautor und Implementierer und lästern über Widersprüche und freie Lesarten.
+Zur Demonstration kommt eine Software Namens scapy &ndash; eine interaktive Python-Shell zur Paketgenerierung.</p>
+<p>Alle standardrelevanten Vortragsinhalte sind persönliche Meinung des Vortragenden (a.k.a lästern).</p>
+<p>Zum Referenten: Marcus befasst sich für seine Masterarbeit mit IPv6 und sucht Lücken im Standard, um Router wiederzuerkennen.</p>
+<h3 id="zitierte-rfcs">zitierte RFCs</h3>
+<p><a href="https://dontpanic.ulm.ccc.de/~marcus/chaosseminar/ipv6/ipv6.rfclist.png">https://dontpanic.ulm.ccc.de/~marcus/chaosseminar/ipv6/ipv6.rfclist.png</a></p>
+<p>Es folgt eine Einzelaufschlüsselung.</p>
+<h4 id="internet-control-message-protocol-ping">Internet Control Message Protocol, Ping</h4>
+<ul>
+<li>rfc1885, ICMPv6, Jahr 1995</li>
+<li>rfc2463, ICMPv6, Jahr 1998</li>
+<li>rfc4443, ICMPv6, Jahr 2006</li>
+<li>rfc4884, Extended ICMP tu Support Multi-Part Messages, Jahr 2007</li>
+</ul>
+<h4 id="inter-router-link-configuration">Inter Router Link Configuration</h4>
+<ul>
+<li>rfc3627, Use of /127 Prefix Length Between Routers Considered Harmful, Jahr 2003</li>
+<li>rfc6164, 127-Bit IPv6 Prefixes on Inter-Router Links, Jahr 2011</li>
+<li>rfc6547, rfc3627 to Historic Status, Jahr 2012</li>
+</ul>
+<h4 id="path-maximum-transfer-unit-discovery">Path Maximum Transfer Unit Discovery</h4>
+<ul>
+<li>rfc1981, PMTU Discovery, Jahr 1996</li>
+</ul>
+<p>Der Client findet die MTU durch wiederholtes ausprobieren heraus. Ob die MTU abhängig von Adresse, Interface, &hellip; gespeichert wird, ist Aufgabe des Implementierers zu entscheiden:</p>
+<pre><code>5.2. Storing PMTU information
+
+   Ideally, a PMTU value should be associated with a specific path
+   traversed by packets exchanged between the source and destination
+   nodes.  However, in most cases a node will not have enough
+   information to completely and accurately identify such a path.
+   Rather, a node must associate a PMTU value with some local
+   representation of a path.  It is left to the implementation to select
+   the local representation of a path.
+</code></pre><h4 id="internet-protocol-version-6-inklusive-flow-label-traffic-class-und-routing-type-0">Internet Protocol Version 6 inklusive Flow Label, Traffic Class und Routing Type 0</h4>
+<ul>
+<li>rfc1883, IPv6, Jahr 1995</li>
+<li>rfc2460, IPv6, Jahr 1998</li>
+<li>Ergänzungen (5095,9722,5871,6437,6564,6935,6946,7045,7112)</li>
+</ul>
+<pre><code>6.  Flow Labels
+
+   The 24-bit Flow Label field in the IPv6 header may be used by a
+   source to label those packets for which it requests special handling
+   by the IPv6 routers, such as non-default quality of service or
+   &quot;real-time&quot; service.  This aspect of IPv6 is, at the time of writing,
+   still experimental and subject to change as the requirements for flow
+   support in the Internet become clearer.  Hosts or routers that do not
+   support the functions of the Flow Label field are required to set the
+   field to zero when originating a packet, pass the field on unchanged
+   when forwarding a packet, and ignore the field when receiving a
+   packet.
+</code></pre><h3 id="links">Links</h3>
+<ul>
+<li><a href="http://www.secdev.org/projects/scapy/">Scapy Homepage</a></li>
+<li><a href="https://tools.ietf.org/html/rfc1883">initialer IPv6 RFC 1995</a></li>
+</ul>
+</div>
+  </div>
+</article>
+<article itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div>
+    <header class="post-list-title">
       <a href="../../../../ccc/chaosseminar/2016_04_sichereautos/">
         <h2 itemprop="headline">Sichere Autos – aber wie?</h2>
       </a>
@@ -408,41 +504,6 @@ weiblichen IT Autoren würdigt der Vortragende. Das Motto ist <em>Nett und Freun
 </tr>
 </tbody>
 </table>
-</div>
-  </div>
-</article>
-<article itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div>
-    <header class="post-list-title">
-      <a href="../../../../ccc/chaosseminar/2015_10_ruby/">
-        <h2 itemprop="headline">Ruby</h2>
-      </a>
-      <p class="post-metadata row">
-        <span class="row-item"><span class="fa fa-clock-o"></span>
-          <time datetime="2015-10-12" itemprop="datePublished">2015-10-12</time><span> in </span></span><span class="row-item">
-          <span class="fa fa-folder"></span>
-          <a href="../../../../categories/chaosseminar" rel="category">Chaos Seminar</a>
-        </span></p>
-    </header>
-    <div class="post-list-summary" itemprop="description">
-	  
-          <div class="chaosseminar-info">
-  <dl>
-      <dt>Thema</dt><dd>Ruby</dd>
-      <dt>Termin</dt><dd>2015-10-12 20:00</dd><dt>Ort</dt><dd>Uni Ulm, Hörsaal H20</dd><dt>Vortragende</dt><dd>Niklas Häusele</dd>
-      <dt>Archiv</dt><dd>
-      
-        <ul>
-        
-            <li>Video: <a href="https://archiv.ulm.ccc.de/chaosseminar/201510-ruby/cs-201510-ruby_video.m4v">M4V (iPod)</a> (69.7 MB)</li>
-            <li>Video: <a href="https://archiv.ulm.ccc.de/chaosseminar/201510-ruby/cs-201510-ruby_video.mp4">MP4</a> (103.7 MB)</li>
-            <li>Video: <a href="https://archiv.ulm.ccc.de/chaosseminar/201510-ruby/cs-201510-ruby_video.ogv">Ogg Theora</a> (464.3 MB)</li>
-            <li>Video: <a href="https://archiv.ulm.ccc.de/chaosseminar/201510-ruby/cs-201510-ruby_video_high.mp4">MP4 HD</a> (497.3 MB)</li>
-            <li>Audio: <a href="https://archiv.ulm.ccc.de/chaosseminar/201510-ruby/cs-201510-ruby_audio.mp3">MP3</a> (53.4 MB)</li>
-            <li>Audio: <a href="https://archiv.ulm.ccc.de/chaosseminar/201510-ruby/cs-201510-ruby_audio.ogg">Ogg Vorbis</a> (38.0 MB)</li>
-            <li>Audio: <a href="https://archiv.ulm.ccc.de/chaosseminar/201510-ruby/cs-201510-ruby_audio.opus">Opus</a> (35.7 MB)</li></ul>
-      </dd>
-    </dl>
-  </div>
 </div>
   </div>
 </article>
