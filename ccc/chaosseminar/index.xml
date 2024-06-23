@@ -22,18 +22,6 @@
     </item>
     
     <item>
-      <title>3D-Zeichnen mit OpenSCAD, Teil 1/3: das 2D-Subsystem</title>
-      <link>/ccc/chaosseminar/openscad1/</link>
-      <pubDate>Fri, 01 Jan 9999 00:00:00 +0000</pubDate>
-      
-      <guid>/ccc/chaosseminar/openscad1/</guid>
-      <description> Thema3D-Zeichnen mit OpenSCAD, Teil 1/3: das 2D-Subsystem Termin9999-01-01 20:00OrtTBDVortragendeMarcus Archiv Noch keine Aufzeichnungsdateien verfügbar.   Inhalt:
-Wir beschäftigen uns mit den Zeichenprimitiven Rechteck und Kreis. Mit ein paar OpenSCAD-Funktionen werden daraus beeindruckende aber verstehbare Modelle.
-Beispiele:
- Schachfiguren   Spirelli-Nudeln   Dampflok   Wasserflaschen-Raketenfinne   </description>
-    </item>
-    
-    <item>
       <title>Beschriftungsgeräte und Reverse-Engineering</title>
       <link>/ccc/chaosseminar/beschriftungsgeraete/</link>
       <pubDate>Fri, 01 Jan 9999 00:00:00 +0000</pubDate>
@@ -61,6 +49,27 @@ Beispiele:
       <guid>/ccc/chaosseminar/productivitytools/</guid>
       <description> ThemaProductivity-Tools eines Nerds Termin9999-01-01 20:00OrtUni Ulm, Hörsaal H20VortragendeRoland Archiv Noch keine Aufzeichnungsdateien verfügbar.   Vortragsinhalte:
  kurze Productivity-Tools-Defintion/Übersicht Bestandteile  TODO-Liste Kalender strukturierte Notizen (Dokumenten-Management) (Zeiterfassung) (Synchronisation zwischen Geräten/Personen) &amp;hellip;   ggf. Theorien  GTD (&amp;ldquo;Getting Things Done&amp;rdquo;)   meine Anforderungen Sofware  orgmode? Notion? &amp;hellip;   meine Lösung  </description>
+    </item>
+    
+    <item>
+      <title>3D-Zeichnen mit OpenSCAD, Teil 1/3: das 2D-Subsystem</title>
+      <link>/ccc/chaosseminar/openscad1/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/ccc/chaosseminar/openscad1/</guid>
+      <description> Thema3D-Zeichnen mit OpenSCAD, Teil 1/3: das 2D-Subsystem Termin2024-07-08 19:00 (Einlass 18:30)OrtUniversität Ulm, o27, 3. Stock, Raum 341VortragendeMarcus Archiv Noch keine Aufzeichnungsdateien verfügbar.   Inhalt:
+Wir beschäftigen uns mit den Zeichenprimitiven Rechteck und Kreis. Mit ein paar OpenSCAD-Funktionen werden daraus beeindruckende aber verstehbare Modelle.
+
+Beispiele:
+  Schachfiguren
+   
+  Spirelli-Nudeln
+  
+  Dampflok
+ 
+  Wasserflaschen-Raketenfinne
+
+  </description>
     </item>
     
     <item>
