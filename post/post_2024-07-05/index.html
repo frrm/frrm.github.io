@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OpenSCAD-Vorträge - Freiraum</title><meta name="description" itemprop="description" content="OpenSCAD ist eine (freie) 3D-CAD-Software, die oft verwendet wird, um 3D-Druck-Modelle zu erstellen. Jedoch ist sie auch ohne 3D-Druck praktisch. Wir planen eine Vortragsreihe mit 3 Vorträgen zu OpenSCAD:  2D-Grundlagen, Erstellung von 3D-Modellen aus 2D (Marcus) 3D-Grundlagen, automatische Generierung von z.B. Gewinden/Zahnrädern (Thomas) Fortgeschrittene Konzepte, Bibliotheken (Roland)  Der 1. Vortrag findet am Montag, den 8.7. um 19:05 an der Uni Ulm (o27, 3. Stock, Raum 341) statt." id="desc"><link rel="alternate" type="application/rss+xml" title="Freiraum Feed" href=""><link rel="canonical" href="../../post/post_2024-07-05/">
+    <link rel="shortcut icon" href="../../favicon.png">
+    <link rel="prefetch stylesheet" type="text/css" href="../../css/font-awesome.min.css">
+    
+    <link rel="prefetch stylesheet" type="text/css" href="../../styles.css">
+    </head>
+  <body itemscope itemtype="https://schema.org/WebPage">
+    <div id="site-container">
+      <div id="site-header">
+        <header class="small-text-center medium-text-left">
+          <a href="../../">
+            <span id="site-title" itemprop="name">Freiraum - Hackerspace Ulm e.V.</span><br>
+            <span id="site-title2" itemprop="name">Chaos Computer Club Ulm</span>
+            
+          </a>
+        </header>
+        <label for="menu-toggle-box"><div id="menu-toggle" class="main-nav no-select"><span><span class="fa fa-bars"></span> MENU</span></div></label>
+        <input type="checkbox" id="menu-toggle-box" class="hide"/>
+        <nav id="main-nav">
+          <ul class="menu"><li class="no-select" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <input type="checkbox" id="nav-freiraum" class="hide"/><a class="main-nav button" href="../../about/" >
+          FREIRAUM
+        </a></li><li class="no-select" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <input type="checkbox" id="nav-ccc-ulm" class="hide"/><a class="main-nav button" href="../../ccc/" >
+          CCC ULM
+        </a></li><li class="no-select" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <input type="checkbox" id="nav-galerie" class="hide"/><a class="main-nav button" href="../../gallery/" >
+          GALERIE
+        </a></li><li class="no-select" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <input type="checkbox" id="nav-veranstaltungen" class="hide"/><a class="main-nav button" href="../../events/" >
+          VERANSTALTUNGEN
+        </a></li><li class="no-select" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <input type="checkbox" id="nav-kontakt" class="hide"/><a class="main-nav button" href="../../contact/" >
+          KONTAKT
+        </a></li><li class="no-select" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <input type="checkbox" id="nav-impressum/datenschutz" class="hide"/><a class="main-nav button" href="../../imprint/" >
+          IMPRESSUM/DATENSCHUTZ
+        </a></li></ul>
+        </nav>
+      </div>
+      <div id="main-container" class="row" role="main" itemprop="mainContentOfPage">
+        
+        
+<main class="row-item small-full medium-two-thirds" itemscope itemtype="http://schema.org/Blog">
+  <article id="post-article" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemref="desc">
+    <header id="page-header">
+      <h1 itemprop="headline">OpenSCAD-Vorträge</h1><p class="post-metadata row"><span class="row-item">
+          <span class="fa fa-clock-o"></span>
+          <time datetime="2024-07-05" itemprop="datePublished">2024-07-05</time>
+          <span> by roland in </span>
+        </span><span class="row-item">
+          <span class="fa fa-folder"></span>
+          <a href="../../categories/log" rel="category">Log</a>
+        </span>
+      </p>
+      
+    </header>
+    <div class="post-content">
+      <div itemprop="articleBody" style="display: inline"><p><a href="https://en.wikibooks.org/wiki/File:Openscad.svg"><img src="Openscad.svg" alt="OpenSCAD-Logo"></a></p>
+<p>OpenSCAD ist eine (freie) 3D-CAD-Software, die oft verwendet wird, um
+3D-Druck-Modelle zu erstellen. Jedoch ist sie auch ohne 3D-Druck praktisch.</p>
+<p>Wir planen eine Vortragsreihe mit 3 Vorträgen zu OpenSCAD:</p>
+<ol>
+<li><a href="../../ccc/chaosseminar/openscad1/">2D-Grundlagen, Erstellung von 3D-Modellen aus 2D</a> (Marcus)</li>
+<li>3D-Grundlagen, automatische Generierung von z.B. Gewinden/Zahnrädern (Thomas)</li>
+<li>Fortgeschrittene Konzepte, Bibliotheken (Roland)</li>
+</ol>
+<p>Der <a href="../../ccc/chaosseminar/openscad1/">1. Vortrag</a> findet am Montag, den 8.7.
+um 19:05 an der Uni Ulm (o27, 3. Stock, Raum 341) statt.</p>
+<p>Alle Vorträge sind prinzipiell auch für Anfänger geeignet.
+Für Teil 3 sollte man aber entweder einen vorherigen Teil besucht oder
+bereits etwas Programmier- oder OpenSCAD-Erfahrung gesammelt haben.</p>
+<p><strong>zu OpenSCAD:</strong></p>
+<p>Im Gegensatz zu den meisten anderen 3D-CAD-Systemen werden in OpenSCAD:</p>
+<ul>
+<li>die 3D-Objekte nicht per Maus, sondern (teils ähnlich wie bei Programmiersprachen) per Text erstellt.
+Beispielsweise kann eine Kugel per <code>sphere(5);</code> erzeugt werden.</li>
+<li>komplexe Modelle primär durch Addition, Subtraktion und Schnitt einfacher Grundkörper erstellt.</li>
+</ul>
+<p>Dies klingt zwar erstmal etwas ungewöhnlich &ndash; es bietet aber die
+Möglichkeit, auf einfache und überschaubare Weise sehr flexible,
+parametrisierbare und klar strukturierte Modelle zu erstellen
+(oder automatisiert erstellen zu lassen ).</p>
+<ul>
+<li>OpenSCAD-Homepage: <a href="https://openscad.org/">https://openscad.org/</a></li>
+<li>OpenSCAD-Syntax: <a href="https://openscad.org/cheatsheet/">https://openscad.org/cheatsheet/</a></li>
+</ul>
+</div>
+    </div></article><div class="post-comments"></div></main>
+        <aside class="row-item small-full medium-third right" itemscope itemtype="http://schema.org/WPSideBar">
+  
+  <div class="widget">
+	<header>
+		<h4><a href="../../events/#termine"><span class="fa fa-calendar"></span> nächste Treffen</a></h4>
+	</header>
+	<ul class="events-side"><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">CCC Ulm:</b>
+	  <span itemprop="about">Chaos-Seminar: OpenSCAD 1/3</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="Zeit:" src="../../images/marker-time.svg">
+	  <time datetime="2024-07-08T19:00:00" content="2024-07-08T19:00:00" itemprop="startDate">2024-07-08 19:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="Ort:" src="../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Universität Ulm, o27, 3. Stock, Raum 341</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">Offenes Treffen:</b>
+	  <span itemprop="about">/dev/urandom (Fragt am besten vorher im Matrix-Channel nach, ob jemand da sein wird.)</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="Zeit:" src="../../images/marker-time.svg">
+	  <time datetime="2024-07-11T20:00:00" content="2024-07-11T20:00:00" itemprop="startDate">2024-07-11 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="Ort:" src="../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Freiraum</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">CCC Ulm:</b>
+	  <span itemprop="about">CCC Montagstreffen</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="Zeit:" src="../../images/marker-time.svg">
+	  <time datetime="2024-07-15T20:00:00" content="2024-07-15T20:00:00" itemprop="startDate">2024-07-15 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="Ort:" src="../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Freiraum</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">Offenes Treffen:</b>
+	  <span itemprop="about">/dev/urandom (Fragt am besten vorher im Matrix-Channel nach, ob jemand da sein wird.)</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="Zeit:" src="../../images/marker-time.svg">
+	  <time datetime="2024-07-18T20:00:00" content="2024-07-18T20:00:00" itemprop="startDate">2024-07-18 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="Ort:" src="../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Freiraum</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">CCC Ulm:</b>
+	  <span itemprop="about">CCC Montagstreffen</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="Zeit:" src="../../images/marker-time.svg">
+	  <time datetime="2024-07-22T20:00:00" content="2024-07-22T20:00:00" itemprop="startDate">2024-07-22 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="Ort:" src="../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Freiraum</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">Offenes Treffen:</b>
+	  <span itemprop="about">/dev/urandom (Fragt am besten vorher im Matrix-Channel nach, ob jemand da sein wird.)</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="Zeit:" src="../../images/marker-time.svg">
+	  <time datetime="2024-07-25T20:00:00" content="2024-07-25T20:00:00" itemprop="startDate">2024-07-25 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="Ort:" src="../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Freiraum</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">CCC Ulm:</b>
+	  <span itemprop="about">CCC Montagstreffen</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="Zeit:" src="../../images/marker-time.svg">
+	  <time datetime="2024-07-29T20:00:00" content="2024-07-29T20:00:00" itemprop="startDate">2024-07-29 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="Ort:" src="../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Freiraum</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">Offenes Treffen:</b>
+	  <span itemprop="about">/dev/urandom (Fragt am besten vorher im Matrix-Channel nach, ob jemand da sein wird.)</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="Zeit:" src="../../images/marker-time.svg">
+	  <time datetime="2024-08-01T20:00:00" content="2024-08-01T20:00:00" itemprop="startDate">2024-08-01 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="Ort:" src="../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Freiraum</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">CCC Ulm:</b>
+	  <span itemprop="about">CCC Montagstreffen</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="Zeit:" src="../../images/marker-time.svg">
+	  <time datetime="2024-08-05T20:00:00" content="2024-08-05T20:00:00" itemprop="startDate">2024-08-05 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="Ort:" src="../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Freiraum</span>
+	  </span>
+    </li><li itemscope itemtype="http://schema.org/Event">
+      <b itemprop="name">Offenes Treffen:</b>
+	  <span itemprop="about">/dev/urandom (Fragt am besten vorher im Matrix-Channel nach, ob jemand da sein wird.)</span><br>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" alt="Zeit:" src="../../images/marker-time.svg">
+	  <time datetime="2024-08-08T20:00:00" content="2024-08-08T20:00:00" itemprop="startDate">2024-08-08 20:00</time>
+	  </span>&nbsp;
+	  <span style="white-space: nowrap">
+	  <img class="location-marker" alt="Ort:" src="../../images/marker-location.svg">
+	  <span class="event-location" itemprop="location">Freiraum</span>
+	  </span>
+    </li></ul>
+</div>
+  <div class="widget">
+	<header>
+		<h4><span class="fa fa-pencil"></span> <a href="../../post/">neueste Beiträge</a></h4>
+	</header>
+	<ul><li><a href="../../post/post_2024-07-05/">OpenSCAD-Vorträge</a></li><li><a href="../../post/post_2024-06-23/">Chaos-Seminar: 3D-Zeichnen mit OpenSCAD, Teil 1/3: das 2D-Subsystem</a></li><li><a href="../../post/post_2024-03-11/">Vortragsankündigung</a></li><li><a href="../../post/post_2022-06-26/">Lockpicking-Gruppe</a></li><li><a href="../../post/post_2022-04-19/">Treffen</a></li><li><a href="../../post/post_2021-10-17/">alive</a></li><li><a href="../../post/post_2020-10-18/">systemctl suspend</a></li><li><a href="../../post/post_2020-07-01/">Jabber-Server läuft wieder</a></li><li><a href="../../post/post_2020-06-18/">make -j10 -Werror</a></li></ul>
+</div>
+  
+	<div class="widget">
+	<header>
+		<h4><span class="fa fa-folder"></span> <a href="../../categories/">Kategorien</a></h4>
+	</header>
+	<ul><li><a href="../../categories/chaosseminar">Chaosseminar</a></li>
+		<li><a href="../../categories/ank%C3%BCndigungen">Ankündigungen</a></li>
+		<li><a href="../../categories/log">Log</a></li>
+		<li><a href="../../categories/projekte">Projekte</a></li>
+		<li><a href="../../categories/verein">Verein</a></li>
+		
+	</ul>
+</div>
+	
+</aside>
+
+      </div>
+      <footer class="row">
+        <div class="small-full medium-half row-item small-text-center medium-text-left"><small>&copy; 2024 <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Freiraum</span></span>.</small></div>
+        <div class="small-full medium-half row-item small-text-center medium-text-right" id="social-icons">
+          
+          
+          <a href="https://github.com/frrm">
+            <span class="fa fa-github"></span>
+          </a>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://dokuwiki.ulm.ccc.de">
+            <span class="fa fa-wikipedia-w"></span>
+          </a>
+        </div>
+      </footer>
+    </div></body>
+</html>

@@ -6,11 +6,22 @@
     <description>Recent content in Log on Freiraum</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>2018</copyright>
-    <lastBuildDate>Mon, 08 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="/categories/log/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="/categories/log/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenSCAD-Vorträge</title>
+      <link>/post/post_2024-07-05/</link>
+      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/post/post_2024-07-05/</guid>
+      <description>OpenSCAD ist eine (freie) 3D-CAD-Software, die oft verwendet wird, um 3D-Druck-Modelle zu erstellen. Jedoch ist sie auch ohne 3D-Druck praktisch.
+Wir planen eine Vortragsreihe mit 3 Vorträgen zu OpenSCAD:
+ 2D-Grundlagen, Erstellung von 3D-Modellen aus 2D (Marcus) 3D-Grundlagen, automatische Generierung von z.B. Gewinden/Zahnrädern (Thomas) Fortgeschrittene Konzepte, Bibliotheken (Roland)  Der 1. Vortrag findet am Montag, den 8.7. um 19:05 an der Uni Ulm (o27, 3. Stock, Raum 341) statt.</description>
+    </item>
+    
     <item>
       <title>Chaos-Seminar: 3D-Zeichnen mit OpenSCAD, Teil 1/3: das 2D-Subsystem</title>
       <link>/post/post_2024-06-23/</link>
-      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>/post/post_2024-06-23/</guid>
       <description>Am 8. Juli um 19:05 (Einlass ab 18:30) findet das nächste Chaos-Seminar, diesmal über OpenSCAD, in der Uni Ulm (o27, 3. Stock, Raum 341) statt.
