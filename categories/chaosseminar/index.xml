@@ -13,7 +13,7 @@
       <pubDate>Sat, 02 Jan 9999 00:00:00 +0000</pubDate>
       
       <guid>/ccc/chaosseminar/sqlite/</guid>
-      <description> ThemaSQLite als Programmiersprache und FiBu Termin9999-01-02 20:00OrtUni Ulm, Hörsaal H20VortragendeRoland Archiv Noch keine Aufzeichnungsdateien verfügbar.   Vortragsinhalte:
+      <description> ThemaSQLite als Programmiersprache und FiBu Termin9999-01-02 20:00VortragendeRoland Archiv Noch keine Aufzeichnungsdateien verfügbar.   Vortragsinhalte:
   SQL und SQLite:
  Programmieren von Anwendungen rein in SQL, ohne andere Programmiersprachen
 (per Tabellen, Views, Trigger, GUIs/Formulare aus Tabellen usw.) Beispiel: Finanzbuchhaltungs-Software rein in SQLite, inkl. Bilanz/e-Bilanz
@@ -27,7 +27,7 @@
       <pubDate>Fri, 01 Jan 9999 00:00:00 +0000</pubDate>
       
       <guid>/ccc/chaosseminar/beschriftungsgeraete/</guid>
-      <description> ThemaBeschriftungsgeräte und Reverse-Engineering Termin9999-01-01 20:00OrtUni Ulm, Hörsaal H20VortragendeRoland Archiv Noch keine Aufzeichnungsdateien verfügbar.   Vortragsinhalte:
+      <description> ThemaBeschriftungsgeräte und Reverse-Engineering Termin9999-01-01 20:00VortragendeRoland Archiv Noch keine Aufzeichnungsdateien verfügbar.   Vortragsinhalte:
  Beschriftungsgeräte:  Gerätearten, Abgrenzung zu Labeldruckern Funktionsweise Marktübersicht / Kaufempfehlungen   Erstellung eines Epson LabelWorks-Treibers für Linux per Reverse-Engineering:  Wireshark + USB Disassembler, Decompiler Fallstricke Erfahrungen    </description>
     </item>
     
@@ -37,8 +37,9 @@
       <pubDate>Fri, 01 Jan 9999 00:00:00 +0000</pubDate>
       
       <guid>/ccc/chaosseminar/fernwartung_ssh/</guid>
-      <description> ThemaFernwartung per SSH und Reverse SSH-Shell (eher kürzer) Termin9999-01-01 20:00OrtUni Ulm, Hörsaal H20VortragendeRoland Archiv Noch keine Aufzeichnungsdateien verfügbar.   Vortragsinhalte:
- Fernwartung (unter Linux) Warum? Einsatzgebiete? Funktionsweise, Anforderungen Programme: TeamViewer? Nein, SSH! Fernwartung per ssh (+ggf. VNC) &amp;ldquo;Reverse SSH-Shell&amp;rdquo;: Fernwartung per SSH ohne SSH-Server auf dem Zielrechner  </description>
+      <description> ThemaFernwartung per SSH und Reverse SSH-Shell (eher kürzer) Termin9999-01-01 20:00VortragendeRoland Archiv Noch keine Aufzeichnungsdateien verfügbar.   Vortragsinhalte:
+Fernwartung (v.a. unter Linux):
+ Warum? Einsatzgebiete? Anforderungen, Funktionsweise, Sicherheit Programme: TeamViewer? Nein, SSH! Fernwartung per ssh (+ggf. VNC) Fernzugriff auf Android-Smartphones/Tablets &amp;ldquo;Reverse SSH-Shell&amp;rdquo;: Fernwartung per SSH ohne SSH-Server auf dem Zielrechner  </description>
     </item>
     
     <item>
@@ -47,7 +48,7 @@
       <pubDate>Fri, 01 Jan 9999 00:00:00 +0000</pubDate>
       
       <guid>/ccc/chaosseminar/productivitytools/</guid>
-      <description> ThemaProductivity-Tools eines Nerds Termin9999-01-01 20:00OrtUni Ulm, Hörsaal H20VortragendeRoland Archiv Noch keine Aufzeichnungsdateien verfügbar.   Vortragsinhalte:
+      <description> ThemaProductivity-Tools eines Nerds Termin9999-01-01 20:00VortragendeRoland Archiv Noch keine Aufzeichnungsdateien verfügbar.   Vortragsinhalte:
  kurze Productivity-Tools-Defintion/Übersicht Bestandteile  TODO-Liste Kalender strukturierte Notizen (Dokumenten-Management) (Zeiterfassung) (Synchronisation zwischen Geräten/Personen) &amp;hellip;   ggf. Theorien  GTD (&amp;ldquo;Getting Things Done&amp;rdquo;)   meine Anforderungen Sofware  orgmode? Notion? &amp;hellip;   meine Lösung  </description>
     </item>
     
